@@ -9,7 +9,7 @@
 
 **Quanto a Prefeitura de Rolante/RS gasta e em quê, com dado real e diário do Portal da Transparência.**
 
-[![Acessar o site](https://img.shields.io/badge/Acessar_o_site-filipesfbr.github.io%2Fgastometro--rolante-b4622f?style=for-the-badge&labelColor=26221d)](https://filipesfbr.github.io/gastometro-rolante/)
+[![Acessar o site](https://img.shields.io/badge/Acessar_o_site-gastometro.rolanters.com.br-b4622f?style=for-the-badge&labelColor=26221d)](https://gastometro.rolanters.com.br/)
 
 [![CI](https://github.com/filipesfbr/gastometro-rolante/actions/workflows/ci.yml/badge.svg?branch=develop)](https://github.com/filipesfbr/gastometro-rolante/actions/workflows/ci.yml)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
