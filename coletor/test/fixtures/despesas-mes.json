@@ -1,0 +1,48 @@
+[
+  {
+    "data": "2026-09-01T00:00:00",
+    "valorEmpenhado": 100.1,
+    "valorLiquidado": 100.1,
+    "valorPago": 90,
+    "valorAPagar": 0,
+    "descricaoFuncao": "Saúde                          ",
+    "descricaoOrgao": null,
+    "nome": "PESSOA FICTICIA",
+    "credor": 1,
+    "fornecedor": "X",
+    "descricaoLinha": "HISTORICO FICTICIO"
+  },
+  {
+    "data": "2026-09-01T00:00:00",
+    "valorEmpenhado": 0.2,
+    "valorLiquidado": 0,
+    "valorPago": 0,
+    "descricaoFuncao": "Saúde",
+    "nome": "PESSOA FICTICIA",
+    "credor": 2,
+    "fornecedor": "X",
+    "descricaoLinha": "HISTORICO FICTICIO"
+  },
+  {
+    "data": "2026-09-15T00:00:00",
+    "valorEmpenhado": 1000.55,
+    "valorLiquidado": 500.25,
+    "valorPago": 500.25,
+    "descricaoFuncao": "Educação",
+    "nome": "EMPRESA FICTICIA",
+    "credor": 3,
+    "fornecedor": "X",
+    "descricaoLinha": "HISTORICO FICTICIO"
+  },
+  {
+    "data": "2026-09-15T00:00:00",
+    "valorEmpenhado": -50.11,
+    "valorLiquidado": 0,
+    "valorPago": 0,
+    "descricaoFuncao": "Educação",
+    "nome": "EMPRESA FICTICIA",
+    "credor": 3,
+    "fornecedor": "X",
+    "descricaoLinha": "HISTORICO FICTICIO"
+  }
+]

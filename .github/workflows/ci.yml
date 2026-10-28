@@ -1,0 +1,48 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+  # Ferramenta manual: re-rodar o CI sem precisar de um push (ex.: conferir uma
+  # branch depois de um commit do bot, ou re-executar um job). Nenhum workflow
+  # chama este gatilho: até o PR #10 o `bump.yml` rodava `gh workflow run ci.yml`
+  # depois de commitar a versão na develop, e era justamente isso que criava a
+  # corrida entre os dois CIs da mesma branch (hoje resolvida pelo `event_name`
+  # no grupo de concurrency, mais abaixo).
+  workflow_dispatch:
+
+# Cancelar runs antigas do mesmo PR/branch economiza minutos do plano free.
+# O `event_name` entra no grupo porque push e execução manual na MESMA branch
+# (dois eventos diferentes, mesmo ref) travavam um ao outro em vez de um cancelar
+# o outro — aconteceu com o push do merge + o dispatch do `bump.yml`.
+concurrency:
+  group: ci-${{ github.ref }}-${{ github.event_name }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      # Sem `--fix`: o CI falha, quem conserta é o dev.
+      - name: Lint
+        run: npm run lint
+
+      - name: Build
+        run: npm run build
+
+      - name: Test
+        run: npm test

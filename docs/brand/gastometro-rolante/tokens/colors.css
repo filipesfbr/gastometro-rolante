@@ -1,0 +1,8 @@
+:root{
+  --terracota:#b4622f; --ambar:#d98a52; --tinta:#26221d; --creme:#fbf4e9; --branco:#ffffff;
+  --fundo-pagina:#faf8f4; --corpo:#5a534a; --apagado:#9a9082; --linha:#ece7df;
+  --accent:var(--terracota); --accent-on-dark:var(--ambar);
+  --text-strong:var(--tinta); --text-body:var(--corpo); --text-muted:var(--apagado);
+  --surface-page:var(--fundo-pagina); --surface-card:var(--branco); --surface-brand:var(--creme); --surface-dark:var(--tinta);
+  --border:var(--linha);
+}

@@ -1,0 +1,11 @@
+{
+  "api": "https://apitransparencia.abase.com.br/",
+  "portal": "https://transparencia.abase.com.br/home/apvqyIT7vjY=",
+  "portalDespesas": "https://transparencia.abase.com.br/despesas/apvqyIT7vjY=",
+  "token": "apvqyIT7vjY=",
+  "entidade": 0,
+  "ibge": "4316006",
+  "repositorio": "https://github.com/filipesfbr/gastometro-rolante",
+  "userAgent": "GastometroRolante/1.0 (+https://github.com/filipesfbr/gastometro-rolante)",
+  "intervaloMs": 2000
+}

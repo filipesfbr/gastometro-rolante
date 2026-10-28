@@ -1,0 +1,66 @@
+{
+  "colors": {
+    "terra": "#b4622f",
+    "amber": "#d98a52",
+    "ink": "#26221d",
+    "cream": "#fbf4e9",
+    "white": "#ffffff"
+  },
+  "brands": {
+    "transparencia": {
+      "name": "TransparêncIA",
+      "accentWord": "IA",
+      "weight": 700,
+      "tracking": "-0.02em",
+      "audience": "cidadão",
+      "outline": "terracota",
+      "description": "Portal público de transparência de Rolante/RS.",
+      "symbol": "Dois traços de movimento: a chuva que forma o rio.",
+      "assets": "assets/transparencia/"
+    },
+    "auditoria-rolante": {
+      "name": "auditoria-rolante",
+      "accentWord": "-rolante",
+      "weight": 600,
+      "tracking": "-0.01em",
+      "audience": "interna",
+      "outline": "tinta",
+      "description": "Orquestração de agentes de IA que alimenta o portal.",
+      "symbol": "Três nós ligados em fila. O último, em terracota, é a saída para o portal.",
+      "assets": "assets/auditoria-rolante/"
+    },
+    "impostometro-rolante": {
+      "name": "Impostômetro Rolante",
+      "accentWord": "Rolante",
+      "weight": 700,
+      "tracking": "-0.02em",
+      "audience": "cidadão",
+      "outline": "terracota",
+      "description": "Site que mostra a receita acumulada de Rolante.",
+      "symbol": "Mostrador de meia volta. O ponteiro é o valor acumulado.",
+      "assets": "assets/impostometro-rolante/"
+    },
+    "cameras-rolante": {
+      "name": "cameras-rolante",
+      "accentWord": "-rolante",
+      "weight": 600,
+      "tracking": "-0.01em",
+      "audience": "cidadão",
+      "outline": "tinta",
+      "description": "Site com as câmeras dos rios de Rolante para acompanhar as cheias.",
+      "symbol": "Visor de enquadramento. O ponto de foco, em terracota, é o rio sob observação.",
+      "assets": "assets/cameras-rolante/"
+    },
+    "gastometro-rolante": {
+      "name": "Gastômetro Rolante",
+      "accentWord": "Rolante",
+      "weight": 700,
+      "tracking": "-0.02em",
+      "audience": "cidadão",
+      "outline": "terracota",
+      "description": "Site que mostra para onde vão os gastos públicos de Rolante.",
+      "symbol": "Cifrão sobre duas ondas. O cifrão, em terracota, é o dinheiro público; a água liga ao rio de Rolante.",
+      "assets": "assets/gastometro-rolante/"
+    }
+  }
+}

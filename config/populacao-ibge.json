@@ -1,0 +1,8 @@
+{
+  "fonte": "IBGE, agregado 6579 (estimativas da população residente), variável 9324",
+  "url": "https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/-6/variaveis/9324?localidades=N6[4316006]",
+  "consultado_em": "2026-10-26",
+  "municipios": {
+    "4316006": { "2019": 21349, "2020": 21453, "2021": 21591, "2024": 21733, "2025": 21752, "2026": 21753 }
+  }
+}
