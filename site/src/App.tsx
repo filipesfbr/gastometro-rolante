@@ -10,7 +10,7 @@ import { BrandLockup } from './components/brand/BrandLockup.tsx';
 import { BrandMark } from './components/brand/BrandMark.tsx';
 
 const LIMITE_ATRASO_MS = 36 * 3600_000;
-const IMPOSTOMETRO = 'https://filipesfbr.github.io/impostometro-rolante/';
+const IMPOSTOMETRO = 'https://impostometro.rolanters.com.br/';
 
 function Cabecalho() {
   return (
