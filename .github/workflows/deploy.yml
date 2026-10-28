@@ -44,7 +44,7 @@ jobs:
           test -f data/site.json || { echo "::error::data/site.json não existe — rode a coleta"; exit 1; }
           npm run build -w site
 
-      - uses: actions/upload-pages-artifact@v4
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: site/dist
 
@@ -57,4 +57,4 @@ jobs:
 
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
