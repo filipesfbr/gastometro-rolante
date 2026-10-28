@@ -6,6 +6,7 @@ type Opcoes = {
 };
 
 const TENTATIVAS = 3;
+const TIMEOUT_MS = 60_000;
 
 type Envelope<T> = { status: string | boolean; data: T; recordsTotal?: number };
 
@@ -44,6 +45,7 @@ export function criarApi(fonte: Fonte, op: Opcoes = {}) {
       primeira = false;
 
       let resp: Response;
+      let texto: string;
       try {
         resp = await f(url, {
           method: metodo,
@@ -52,7 +54,10 @@ export function criarApi(fonte: Fonte, op: Opcoes = {}) {
             ...(metodo === 'POST' ? { 'Content-Type': 'application/x-www-form-urlencoded' } : {}),
           },
           ...(metodo === 'POST' ? { body: corpo.toString() } : {}),
+          signal: AbortSignal.timeout(TIMEOUT_MS),
         });
+        // O portal já derrubou a conexão no meio do corpo: ler aqui para o retry cobrir.
+        texto = await resp.text();
       } catch (erro) {
         if (tentativa >= TENTATIVAS) throw new Error(`${caminho}: falha de rede`, { cause: erro });
         await esperar(5000 * tentativa);
@@ -70,7 +75,7 @@ export function criarApi(fonte: Fonte, op: Opcoes = {}) {
       }
       if (!resp.ok) throw new Error(`${caminho}: HTTP ${resp.status}`);
 
-      const json = (await resp.json()) as Envelope<T>;
+      const json = JSON.parse(texto) as Envelope<T>;
       if (json.status !== 'success' && json.status !== true) {
         throw new Error(`${caminho}: status ${JSON.stringify(json.status)}`);
       }
