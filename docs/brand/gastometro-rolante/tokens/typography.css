@@ -1,0 +1,6 @@
+:root{
+  --font-sans:'Inter','Helvetica Neue',Arial,sans-serif;
+  --weight-regular:400; --weight-medium:500; --weight-semibold:600; --weight-bold:700; --weight-black:800;
+  --tracking-brand:-0.02em; --tracking-brand-tech:-0.01em; --tracking-label:0.08em;
+  --label-size:12px; --label-weight:600;
+}

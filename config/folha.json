@@ -1,0 +1,16 @@
+{
+  "fonte": "Portaria Interministerial STN/SOF nº 163/2001, Anexo II: elementos do grupo 1, Pessoal e Encargos Sociais",
+  "nota": "O portal não devolve o código do elemento, só o nome; a comparação ignora acentos e maiúsculas. Sentenças judiciais e despesas de exercícios anteriores podem ser de qualquer grupo e ficam fora.",
+  "elementos": [
+    "Aposentadorias, reserva remunerada e reformas",
+    "Pensões",
+    "Contratação por tempo determinado",
+    "Outros benefícios previdenciários do servidor ou do militar",
+    "Salário-família",
+    "Vencimentos e vantagens fixas - pessoal civil",
+    "Obrigações patronais",
+    "Outras despesas variáveis - pessoal civil",
+    "Indenizações e restituições trabalhistas",
+    "Ressarcimento de despesas de pessoal requisitado"
+  ]
+}

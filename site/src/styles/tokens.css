@@ -1,0 +1,124 @@
+/* Gastômetro Rolante — design tokens
+   Fonte de verdade: docs/brand/gastometro-rolante/ (sistema de marcas Rolante).
+   Mesma paleta do Impostômetro Rolante: os dois são metades do mesmo sistema.
+   Um único acento (terracota; âmbar no escuro), sem sombras nem gradientes:
+   profundidade por borda de 1 px e fundo branco.
+   Texto pequeno nunca em --accent nem em --line-strong (contraste < 4,5:1).
+   Exceção decidida com o design: --label (apagado, ~3:1) nos rótulos pequenos em caixa alta.
+   Tema: segue o sistema; [data-theme] força claro ou escuro.
+   Fonte: Inter variável, local (@fontsource-variable/inter, importada em main.tsx). */
+
+:root {
+  /* marca (fixas nos dois temas) */
+  --terracota: #B4622F;
+  --ambar: #D98A52;
+  --tinta: #26221D;
+  --creme: #FBF4E9;
+  --branco: #FFFFFF;
+
+  /* superfícies e texto */
+  --bg: #FAF8F4;
+  --panel: #FFFFFF;        /* cartões */
+  --panel-2: #ECE7DF;      /* trilhos, esqueleto, hover */
+  --brand-bg: #FBF4E9;     /* preenchimento do símbolo */
+  --ink: #26221D;
+  --ink-2: #5A534A;        /* texto corrido, legendas, rótulos */
+  --ink-3: #5A534A;        /* era o cinza dos metadados; o apagado não passa em texto pequeno */
+  --line: #ECE7DF;
+  --line-strong: #9A9082;  /* bordas de controle e decoração, nunca texto pequeno */
+  --line-hover: #D8D0C4;   /* borda de cartão no hover */
+  --label: #9A9082;        /* rótulo pequeno em caixa alta (pedido do design) */
+  --on-accent: #FFFFFF;    /* texto sobre o acento (bloco escolhido no mapa) */
+
+  /* acento */
+  --accent: #B4622F;
+  --accent-soft: #FBF4E9;
+  --btn: #26221D;
+  --on-btn: #FAF8F4;
+  --inv: #26221D;          /* bloco invertido ("De onde vêm os números", total dos tributos) */
+  --on-inv: #FBF4E9;
+  --on-inv-2: rgba(251, 244, 233, .72);
+
+  /* gráficos: série principal no acento, apoio em neutro + forma */
+  --cur: #B4622F;          /* ano atual */
+  --prev: #9A9082;         /* ano anterior */
+  --hi: #FBF4E9;           /* mês selecionado */
+  --part: color-mix(in srgb, var(--cur) 45%, transparent); /* mês incompleto (+ borda tracejada) */
+  --seg-a: #B4622F;        /* composição: arrecadado aqui */
+  --seg-b: #9A9082;        /* composição: recebido de fora */
+  --seg-c: color-mix(in srgb, var(--seg-a) 45%, var(--panel)); /* outras */
+
+  /* tipografia */
+  --font-sans: 'Inter Variable', 'Inter', 'Helvetica Neue', Arial, sans-serif;
+
+  /* espaçamento (base 4) */
+  --sp-1: 4px; --sp-2: 8px; --sp-3: 12px; --sp-4: 16px;
+  --sp-5: 24px; --sp-6: 32px; --sp-7: 48px; --sp-8: 64px;
+
+  /* raios */
+  --r-card: 14px; --r-pill: 24px;
+}
+
+/* Escuro: fundo tinta, texto creme, acento âmbar. --panel, --line e as opacidades
+   de texto são o creme sobre a tinta (proposta do handoff, a confirmar visualmente). */
+[data-theme="dark"] {
+  --bg: #26221D;
+  --panel: #312C27;
+  --panel-2: #403B35;
+  --brand-bg: #26221D;
+  --ink: #FBF4E9;
+  --ink-2: rgba(251, 244, 233, .72);
+  --ink-3: rgba(251, 244, 233, .72);
+  --line: #403B35;
+  --line-strong: rgba(251, 244, 233, .45);
+  --line-hover: rgba(251, 244, 233, .45);
+  --label: rgba(251, 244, 233, .72);
+  --on-accent: #26221D;
+
+  --accent: #D98A52;
+  --accent-soft: #312C27;
+  --btn: #FBF4E9;
+  --on-btn: #26221D;
+  --inv: #312C27;
+  --on-inv: #FBF4E9;
+  --on-inv-2: rgba(251, 244, 233, .72);
+
+  --cur: #D98A52;
+  --prev: rgba(251, 244, 233, .45);
+  --hi: #403B35;
+  --seg-a: #D98A52;
+  --seg-b: rgba(251, 244, 233, .45);
+}
+
+/* Sem escolha explícita, segue o sistema. Cópia exata do bloco acima:
+   ao mudar um valor escuro, mudar nos dois. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #26221D;
+    --panel: #312C27;
+    --panel-2: #403B35;
+    --brand-bg: #26221D;
+    --ink: #FBF4E9;
+    --ink-2: rgba(251, 244, 233, .72);
+    --ink-3: rgba(251, 244, 233, .72);
+    --line: #403B35;
+    --line-strong: rgba(251, 244, 233, .45);
+  --line-hover: rgba(251, 244, 233, .45);
+  --label: rgba(251, 244, 233, .72);
+  --on-accent: #26221D;
+
+    --accent: #D98A52;
+    --accent-soft: #312C27;
+    --btn: #FBF4E9;
+    --on-btn: #26221D;
+    --inv: #312C27;
+    --on-inv: #FBF4E9;
+    --on-inv-2: rgba(251, 244, 233, .72);
+
+    --cur: #D98A52;
+    --prev: rgba(251, 244, 233, .45);
+    --hi: #403B35;
+    --seg-a: #D98A52;
+    --seg-b: rgba(251, 244, 233, .45);
+  }
+}

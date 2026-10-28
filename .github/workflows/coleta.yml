@@ -1,0 +1,90 @@
+name: Coleta diária
+
+# Coleta os dados do Portal da Transparência e grava na branch `data`.
+#
+# Por que uma branch só de dados: o histórico dela é o registro público e
+# imutável dos snapshots (R3), e os commits diários não passam pelo fluxo
+# develop → main (que é PR + release). A `main` só recebe código.
+#
+# Falha de validação (R2: soma ≠ totalizador) → o coletor sai com erro, nada é
+# commitado e o site continua no último snapshot (o GitHub avisa por e-mail).
+#
+# Push feito com GITHUB_TOKEN não dispara workflow, por isso o deploy é chamado
+# daqui mesmo, depois do commit.
+
+on:
+  schedule:
+    # 09:47 UTC = 06:47 em Brasília: meia hora depois do Impostômetro, para os dois
+    # não baterem juntos no portal. Minuto quebrado: o cron das horas cheias atrasa.
+    - cron: '47 9 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: coleta
+  cancel-in-progress: false
+
+jobs:
+  coleta:
+    runs-on: ubuntu-latest
+    # ~115 chamadas com 2 s de intervalo: 15–20 min numa coleta normal.
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      - name: Configurar git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Abrir a branch data em ./data
+        run: |
+          set -euo pipefail
+          if git ls-remote --exit-code --heads origin data >/dev/null 2>&1; then
+            git fetch --depth=1 origin data:refs/remotes/origin/data
+            git worktree add -B data data origin/data
+          else
+            echo "::notice::Branch data não existe — primeira coleta, criando órfã"
+            git worktree add --orphan -b data data
+          fi
+
+      - name: Coletar
+        run: npm run coletar
+
+      # R8: nenhum dado de credor ou do empenho individual pode chegar ao repositório.
+      # Lista de permitidos, não de proibidos: toda linha de despesa tem só estas 5 chaves.
+      - name: Conferir que não há dados de credor
+        run: |
+          jq -e 'all(.[]; keys == ["a","d","e","l","p"])' data/despesas/*.json >/dev/null \
+            || { echo "::error::chave inesperada em data/despesas (possível dado de credor)"; exit 1; }
+          if grep -rlE '"(nome|credor|fornecedor|descricaoLinha)"' data --exclude-dir=.git; then
+            echo "::error::dado de credor encontrado nos dados"
+            exit 1
+          fi
+
+      - name: Commitar na branch data
+        working-directory: data
+        run: |
+          set -euo pipefail
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nada mudou"
+            exit 0
+          fi
+          git commit -q -m "dados: coleta $(TZ=America/Sao_Paulo date +%F)"
+          git push origin data
+
+  deploy:
+    needs: coleta
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml

@@ -1,0 +1,5 @@
+:root{
+  --radius-card:14px; --radius-pill-sm:20px; --radius-pill-lg:30px;
+  --border-width:1px; --stroke-mark:1.8; --stroke-inner:1.5;
+  --shadow:none;
+}
