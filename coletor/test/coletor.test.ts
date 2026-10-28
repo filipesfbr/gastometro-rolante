@@ -120,6 +120,18 @@ describe('api', () => {
   const resposta = (status: number, corpo: unknown = {}) => new Response(JSON.stringify(corpo), { status });
   const valores = { valorEmpenhado: 10.5, valorLiquidado: 2, valorPago: 1.01, valorAPagar: 0 };
 
+  it('conexão cai no meio do corpo → tenta de novo', async () => {
+    const cortado = { text: () => Promise.reject(new TypeError('terminated')) };
+    const fetch = vi
+      .fn()
+      .mockResolvedValueOnce(cortado)
+      .mockResolvedValueOnce(resposta(200, { status: 'success', data: [valores] }));
+    const esperar = vi.fn().mockResolvedValue(undefined);
+    const api = criarApi(fonte, { fetch, esperar });
+    expect(await api.totalizador(2026, 1)).toEqual({ e: 1050, l: 200, p: 101 });
+    expect(fetch).toHaveBeenCalledTimes(2);
+  });
+
   it('429 → espera e tenta de novo', async () => {
     const fetch = vi
       .fn()
