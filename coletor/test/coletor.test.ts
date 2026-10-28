@@ -1,6 +1,7 @@
 import { describe, expect, it, vi } from 'vitest';
 import linhas from './fixtures/despesas-mes.json' with { type: 'json' };
 import { agregar } from '../src/agregar.ts';
+import { anosCompletos } from '../src/anos.ts';
 import { criarApi } from '../src/api.ts';
 import { diff } from '../src/diff.ts';
 import { resumirAno } from '../src/resumo.ts';
@@ -162,5 +163,14 @@ describe('api', () => {
       );
     const api = criarApi(fonte, { fetch, esperar: async () => {} });
     expect(await api.codigos()).toEqual({ funcao: { Saúde: 10 }, orgao: {}, vinculo: { Livre: 500 } });
+  });
+});
+
+describe('anosCompletos', () => {
+  it('ano retrasado sem dados gravados fica só com elemento', () => {
+    expect([...anosCompletos([2024, 2025, 2026], 2026, () => false)]).toEqual([2025, 2026]);
+  });
+  it('ano retrasado já gravado inteiro continua inteiro (virada de ano)', () => {
+    expect([...anosCompletos([2025, 2026, 2027], 2027, (a) => a === 2025)]).toEqual([2025, 2026, 2027]);
   });
 });

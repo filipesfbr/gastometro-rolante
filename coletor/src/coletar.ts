@@ -1,6 +1,7 @@
 import { createHash } from 'node:crypto';
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
+import { anosCompletos } from './anos.ts';
 import { agregar, iguais, ordenar, somar, zero } from './agregar.ts';
 import { criarApi } from './api.ts';
 import { diff } from './diff.ts';
@@ -58,8 +59,10 @@ async function main() {
   const anoAtual = Number(hoje.slice(0, 4));
   const mesAtual = Number(hoje.slice(5, 7));
   const anos = process.env.ANOS ? process.env.ANOS.split(',').map(Number) : [anoAtual - 2, anoAtual - 1, anoAtual];
-  // Dois anos antes só entra na comparação da folha, que sai inteira do tipo 2 (elemento).
-  const dimensoes = (ano: number): Dimensao[] => (ano === anoAtual - 2 ? ['elemento'] : NOMES);
+  // Dois anos antes só entra na comparação da folha, que sai inteira do tipo 2 (elemento),
+  // a menos que o ano já tenha sido gravado inteiro (ver anos.ts).
+  const completos = anosCompletos(anos, anoAtual, (ano) => existsSync(join(DATA, arquivo(ano, 'funcao', 'json'))));
+  const dimensoes = (ano: number): Dimensao[] => (completos.has(ano) ? NOMES : ['elemento']);
 
   const api = criarApi(fonte);
   const novos: Record<number, EntradaAno> = {};
@@ -162,7 +165,7 @@ async function main() {
     .sort();
   // Ano coletado só em parte: as outras dimensões vêm do que já está gravado.
   const entrada = (ano: number): EntradaAno | undefined =>
-    (dimensoes(ano) === NOMES ? novos[ano] : undefined) ??
+    (completos.has(ano) ? novos[ano] : undefined) ??
     (existsSync(join(DATA, `totais/${ano}.json`))
       ? {
           agregados: Object.fromEntries(
