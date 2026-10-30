@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "detectado_em": "2026-10-30",
+    "ano": 2026,
+    "mes": 1,
+    "area": "Educação",
+    "campo": "e",
+    "antes": 753678202,
+    "depois": 753608402
+  },
+  {
+    "detectado_em": "2026-10-30",
+    "ano": 2026,
+    "mes": 5,
+    "area": "Educação",
+    "campo": "e",
+    "antes": 491291170,
+    "depois": 490775870
+  },
+  {
+    "detectado_em": "2026-10-30",
+    "ano": 2026,
+    "mes": 9,
+    "area": "Assistência Social",
+    "campo": "e",
+    "antes": 31220352,
+    "depois": 31178952
+  }
+]
