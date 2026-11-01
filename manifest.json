@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-10-31T12:29:59-03:00",
+  "coletado_em": "2026-11-01T13:24:32-03:00",
   "fonte": {
     "portal": "https://transparencia.abase.com.br/home/apvqyIT7vjY=",
     "api": "https://apitransparencia.abase.com.br/",
@@ -1383,6 +1383,60 @@
           },
           "ok": true
         }
+      },
+      "11": {
+        "2": {
+          "soma": {
+            "e": 0,
+            "l": 0,
+            "p": 0
+          },
+          "totalizador": {
+            "e": 0,
+            "l": 0,
+            "p": 0
+          },
+          "ok": true
+        },
+        "4": {
+          "soma": {
+            "e": 0,
+            "l": 0,
+            "p": 0
+          },
+          "totalizador": {
+            "e": 0,
+            "l": 0,
+            "p": 0
+          },
+          "ok": true
+        },
+        "5": {
+          "soma": {
+            "e": 0,
+            "l": 0,
+            "p": 0
+          },
+          "totalizador": {
+            "e": 0,
+            "l": 0,
+            "p": 0
+          },
+          "ok": true
+        },
+        "7": {
+          "soma": {
+            "e": 0,
+            "l": 0,
+            "p": 0
+          },
+          "totalizador": {
+            "e": 0,
+            "l": 0,
+            "p": 0
+          },
+          "ok": true
+        }
       }
     }
   },
@@ -1407,10 +1461,10 @@
     "despesas/2026-orgao.csv": "sha256:075041515933e9ef8ceff6908c071215a96efd8c46abe42b4a0afffa630e498c",
     "despesas/2026-vinculo.json": "sha256:761cface1ca7bacb15a4d4cfb3c44cae8e59e62486e9bdbb515ad2fce6943898",
     "despesas/2026-vinculo.csv": "sha256:6ab1a7ae65d237599a8f256db1f392b36b50ec8095cb435a8e93f61b47c7fb17",
-    "totais/2026.json": "sha256:b848086b5eb875ea5e2c83552e85e8b114f329f9534fa35a7c6f327f1cfb6075",
+    "totais/2026.json": "sha256:9e9fe03dc07ebe47ba7d439bffbc6488b1dd490b3ccd3fcde501fe912449a9fb",
     "codigos.json": "sha256:b15bf5991bb90948c7e213b0d8fe8e7018e6f3d699e52f66d1f0e2de82e41d9d",
     "populacao.json": "sha256:53ef5d5b7e24fbf228a861462f830b75f820a11a989cac4a858aef28a16bdd92",
     "historico-alteracoes.json": "sha256:eb3c1c59f61d6a5f3092ec19476d094704836f8beae02ba5bdcfb25fed5c8b50",
-    "site.json": "sha256:9709636384e94ea88fcc1cdec1e52d5733d5a13507359be6de6cbfdf2bb52acd"
+    "site.json": "sha256:39d466acf7f7f2b27a5fd3029229f274c3e0410f4c928f6f3de2bec9709fc6b0"
   }
 }
