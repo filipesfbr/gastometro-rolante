@@ -1,5 +1,5 @@
 {
-  "coletado_em": "2026-11-02T16:48:20-03:00",
+  "coletado_em": "2026-11-03T14:20:46-03:00",
   "fonte": {
     "portal": "https://transparencia.abase.com.br/home/apvqyIT7vjY=",
     "api": "https://apitransparencia.abase.com.br/",
@@ -1465,6 +1465,6 @@
     "codigos.json": "sha256:b15bf5991bb90948c7e213b0d8fe8e7018e6f3d699e52f66d1f0e2de82e41d9d",
     "populacao.json": "sha256:53ef5d5b7e24fbf228a861462f830b75f820a11a989cac4a858aef28a16bdd92",
     "historico-alteracoes.json": "sha256:eb3c1c59f61d6a5f3092ec19476d094704836f8beae02ba5bdcfb25fed5c8b50",
-    "site.json": "sha256:7c0b299f3ce05262c4aae9c6df522fef62ffe52806d6165aaa8acaabb47b6a01"
+    "site.json": "sha256:e42c148c2312d765dfd65a84e1222c94534f11ea305ec734aaece23b19442bc5"
   }
 }
