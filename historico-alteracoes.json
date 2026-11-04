@@ -25,5 +25,59 @@
     "campo": "e",
     "antes": 31220352,
     "depois": 31178952
+  },
+  {
+    "detectado_em": "2026-11-04",
+    "ano": 2026,
+    "mes": 9,
+    "area": "Administração",
+    "campo": "p",
+    "antes": 83794493,
+    "depois": 83768285
+  },
+  {
+    "detectado_em": "2026-11-04",
+    "ano": 2026,
+    "mes": 10,
+    "area": "Administração",
+    "campo": "e",
+    "antes": 88607566,
+    "depois": 88830901
+  },
+  {
+    "detectado_em": "2026-11-04",
+    "ano": 2026,
+    "mes": 10,
+    "area": "Desporto e Lazer",
+    "campo": "e",
+    "antes": 6016922,
+    "depois": 8072753
+  },
+  {
+    "detectado_em": "2026-11-04",
+    "ano": 2026,
+    "mes": 10,
+    "area": "Encargos Especiais",
+    "campo": "e",
+    "antes": 21651228,
+    "depois": 26868462
+  },
+  {
+    "detectado_em": "2026-11-04",
+    "ano": 2026,
+    "mes": 10,
+    "area": "Transporte",
+    "campo": "e",
+    "antes": 28267577,
+    "depois": 28200577
+  },
+  {
+    "detectado_em": "2026-11-04",
+    "ano": 2026,
+    "mes": 10,
+    "area": "Transporte",
+    "campo": "p",
+    "antes": 17249565,
+    "depois": 17152295
   }
 ]
