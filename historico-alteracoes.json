@@ -79,5 +79,122 @@
     "campo": "p",
     "antes": 17249565,
     "depois": 17152295
+  },
+  {
+    "detectado_em": "2026-11-05",
+    "ano": 2026,
+    "mes": 1,
+    "area": "Administração",
+    "campo": "e",
+    "antes": 219005106,
+    "depois": 218970719
+  },
+  {
+    "detectado_em": "2026-11-05",
+    "ano": 2026,
+    "mes": 1,
+    "area": "Assistência Social",
+    "campo": "e",
+    "antes": 31409107,
+    "depois": 31394686
+  },
+  {
+    "detectado_em": "2026-11-05",
+    "ano": 2026,
+    "mes": 1,
+    "area": "Desporto e Lazer",
+    "campo": "e",
+    "antes": 32192765,
+    "depois": 32146331
+  },
+  {
+    "detectado_em": "2026-11-05",
+    "ano": 2026,
+    "mes": 1,
+    "area": "Urbanismo",
+    "campo": "e",
+    "antes": 1107887206,
+    "depois": 1107886535
+  },
+  {
+    "detectado_em": "2026-11-05",
+    "ano": 2026,
+    "mes": 3,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 176123709,
+    "depois": 175964309
+  },
+  {
+    "detectado_em": "2026-11-05",
+    "ano": 2026,
+    "mes": 6,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 535775596,
+    "depois": 535079796
+  },
+  {
+    "detectado_em": "2026-11-05",
+    "ano": 2026,
+    "mes": 7,
+    "area": "Desporto e Lazer",
+    "campo": "e",
+    "antes": 27238330,
+    "depois": 27224045
+  },
+  {
+    "detectado_em": "2026-11-05",
+    "ano": 2026,
+    "mes": 7,
+    "area": "Educação",
+    "campo": "e",
+    "antes": 452536352,
+    "depois": 452523431
+  },
+  {
+    "detectado_em": "2026-11-05",
+    "ano": 2026,
+    "mes": 8,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 173593852,
+    "depois": 172519252
+  },
+  {
+    "detectado_em": "2026-11-05",
+    "ano": 2026,
+    "mes": 9,
+    "area": "Assistência Social",
+    "campo": "e",
+    "antes": 31178952,
+    "depois": 30776555
+  },
+  {
+    "detectado_em": "2026-11-05",
+    "ano": 2026,
+    "mes": 10,
+    "area": "Administração",
+    "campo": "e",
+    "antes": 88830901,
+    "depois": 89166679
+  },
+  {
+    "detectado_em": "2026-11-05",
+    "ano": 2026,
+    "mes": 10,
+    "area": "Educação",
+    "campo": "e",
+    "antes": 342563892,
+    "depois": 342546093
+  },
+  {
+    "detectado_em": "2026-11-05",
+    "ano": 2026,
+    "mes": 10,
+    "area": "Transporte",
+    "campo": "e",
+    "antes": 28200577,
+    "depois": 28196577
   }
 ]
