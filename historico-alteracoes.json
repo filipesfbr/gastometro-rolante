@@ -196,5 +196,50 @@
     "campo": "e",
     "antes": 28200577,
     "depois": 28196577
+  },
+  {
+    "detectado_em": "2026-11-06",
+    "ano": 2026,
+    "mes": 1,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 762400305,
+    "depois": 761853605
+  },
+  {
+    "detectado_em": "2026-11-06",
+    "ano": 2026,
+    "mes": 3,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 175964309,
+    "depois": 175759509
+  },
+  {
+    "detectado_em": "2026-11-06",
+    "ano": 2026,
+    "mes": 6,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 535079796,
+    "depois": 534483396
+  },
+  {
+    "detectado_em": "2026-11-06",
+    "ano": 2026,
+    "mes": 8,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 172519252,
+    "depois": 167865352
+  },
+  {
+    "detectado_em": "2026-11-06",
+    "ano": 2026,
+    "mes": 10,
+    "area": "Administração",
+    "campo": "e",
+    "antes": 89166679,
+    "depois": 89000408
   }
 ]
