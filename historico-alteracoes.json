@@ -250,5 +250,131 @@
     "campo": "e",
     "antes": 375892418,
     "depois": 373282418
+  },
+  {
+    "detectado_em": "2026-11-10",
+    "ano": 2026,
+    "mes": 1,
+    "area": "Administração",
+    "campo": "e",
+    "antes": 218970719,
+    "depois": 218691602
+  },
+  {
+    "detectado_em": "2026-11-10",
+    "ano": 2026,
+    "mes": 1,
+    "area": "Agricultura",
+    "campo": "e",
+    "antes": 93806540,
+    "depois": 93736148
+  },
+  {
+    "detectado_em": "2026-11-10",
+    "ano": 2026,
+    "mes": 1,
+    "area": "Educação",
+    "campo": "e",
+    "antes": 753608402,
+    "depois": 753585009
+  },
+  {
+    "detectado_em": "2026-11-10",
+    "ano": 2026,
+    "mes": 1,
+    "area": "Encargos Especiais",
+    "campo": "e",
+    "antes": 115553570,
+    "depois": 113413032
+  },
+  {
+    "detectado_em": "2026-11-10",
+    "ano": 2026,
+    "mes": 4,
+    "area": "Administração",
+    "campo": "e",
+    "antes": 160913406,
+    "depois": 160835229
+  },
+  {
+    "detectado_em": "2026-11-10",
+    "ano": 2026,
+    "mes": 4,
+    "area": "Agricultura",
+    "campo": "e",
+    "antes": 29771114,
+    "depois": 29763520
+  },
+  {
+    "detectado_em": "2026-11-10",
+    "ano": 2026,
+    "mes": 4,
+    "area": "Urbanismo",
+    "campo": "e",
+    "antes": 13793369,
+    "depois": 13707544
+  },
+  {
+    "detectado_em": "2026-11-10",
+    "ano": 2026,
+    "mes": 5,
+    "area": "Administração",
+    "campo": "e",
+    "antes": 111638212,
+    "depois": 111468380
+  },
+  {
+    "detectado_em": "2026-11-10",
+    "ano": 2026,
+    "mes": 5,
+    "area": "Assistência Social",
+    "campo": "e",
+    "antes": 19716030,
+    "depois": 19705546
+  },
+  {
+    "detectado_em": "2026-11-10",
+    "ano": 2026,
+    "mes": 5,
+    "area": "Educação",
+    "campo": "e",
+    "antes": 490775870,
+    "depois": 490300924
+  },
+  {
+    "detectado_em": "2026-11-10",
+    "ano": 2026,
+    "mes": 6,
+    "area": "Agricultura",
+    "campo": "e",
+    "antes": 25200485,
+    "depois": 25132738
+  },
+  {
+    "detectado_em": "2026-11-10",
+    "ano": 2026,
+    "mes": 10,
+    "area": "Encargos Especiais",
+    "campo": "e",
+    "antes": 26868462,
+    "depois": 23445235
+  },
+  {
+    "detectado_em": "2026-11-10",
+    "ano": 2026,
+    "mes": 10,
+    "area": "Encargos Especiais",
+    "campo": "p",
+    "antes": 15349284,
+    "depois": 11926057
+  },
+  {
+    "detectado_em": "2026-11-10",
+    "ano": 2026,
+    "mes": 10,
+    "area": "Urbanismo",
+    "campo": "e",
+    "antes": 772780424,
+    "depois": 772600424
   }
 ]
