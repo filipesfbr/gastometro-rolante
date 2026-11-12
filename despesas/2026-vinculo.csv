@@ -71,12 +71,12 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-01-22;"Transferência do Salário-Educação";3950,00;3950,00;3950,00
 2026-01-22;"Transferências Fundo a Fundo de Recursos do SUS provenientes do Governo Estadual";660,85;660,85;660,85
 2026-01-22;"Transferências do FUNDEB - Impostos e Transferências de Impostos";11887,19;11887,19;11887,19
-2026-01-23;"Outros Recursos não Vinculados";104958,84;84507,47;84507,47
-2026-01-23;"Recursos não Vinculados de Impostos";129208,25;105054,69;105054,69
+2026-01-23;"Outros Recursos não Vinculados";104958,84;86083,04;84507,47
+2026-01-23;"Recursos não Vinculados de Impostos";129208,25;117401,46;105054,69
 2026-01-23;"Transf prov do Gov Fed dest ao venc dos agentes comunit de saúde e dos agentes de combate à endemia";906,68;906,68;906,68
 2026-01-23;"Transf. Fundo a Fundo de Rec. do SUS do Gov. Fed. - Bloco de Manutenção das Ações e Serviços Público";84314,96;80743,23;80743,23
 2026-01-23;"Transferências do FUNDEB - Impostos e Transferências de Impostos";9872,07;9872,07;9872,07
-2026-01-26;"Outros Recursos não Vinculados";73367,16;71976,25;71526,99
+2026-01-26;"Outros Recursos não Vinculados";73367,16;71976,25;71976,25
 2026-01-26;"Recursos não Vinculados de Impostos";20066,07;20066,07;20066,07
 2026-01-26;"Transf. Fundo a Fundo de Rec. do SUS do Gov. Fed. - Bloco de Manutenção das Ações e Serviços Público";19296,33;19296,33;19296,33
 2026-01-26;"Transferências do FUNDEB - Impostos e Transferências de Impostos";25000,00;25000,00;25000,00
@@ -445,7 +445,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-05-11;"Transferências da União Referentes às participações na exploração de Petróleo e Gás Natural destinad";0,00;0,00;0,00
 2026-05-12;"Outras Transferências de Convênios ou Instrumentos Congêneres dos Estados";89499,95;59487,95;59487,95
 2026-05-12;"Outros Recursos não Vinculados";49657,35;49657,35;49657,35
-2026-05-12;"Recursos não Vinculados de Impostos";35670,54;18960,74;17280,74
+2026-05-12;"Recursos não Vinculados de Impostos";35670,54;18960,74;18960,74
 2026-05-12;"Transferências da União Referentes às participações na exploração de Petróleo e Gás Natural destinad";49766,13;49766,13;49766,13
 2026-05-13;"Outros Recursos não Vinculados";16990,11;16990,11;16990,11
 2026-05-13;"Recursos não Vinculados de Impostos";640,00;640,00;640,00
@@ -543,7 +543,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-06-08;"Transf. Fundo a Fundo de Rec. do SUS do Gov. Fed. - Bloco de Manutenção das Ações e Serviços Público";56048,12;37783,88;37783,88
 2026-06-08;"Transferências do FUNDEB - Complementação da União - VAAR";18000,00;18000,00;18000,00
 2026-06-08;"Transferências do FUNDEB - Impostos e Transferências de Impostos";10415,80;10415,80;10415,80
-2026-06-09;"Outros Recursos não Vinculados";143259,47;138434,93;136975,42
+2026-06-09;"Outros Recursos não Vinculados";143259,47;138434,93;138434,93
 2026-06-09;"Recursos não Vinculados de Impostos";11900,00;11900,00;11900,00
 2026-06-09;"Transf. Fundo a Fundo de Rec. do SUS do Gov. Fed. - Bloco de Manutenção das Ações e Serviços Público";13098,83;13098,83;13098,83
 2026-06-09;"Transferências da União Referentes às participações na exploração de Petróleo e Gás Natural destinad";99620,58;99620,58;99620,58
@@ -572,7 +572,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-06-16;"Transferências do FUNDEB - Impostos e Transferências de Impostos";3639,50;3639,50;3639,50
 2026-06-17;"Outros Recursos não Vinculados";6657,96;6657,96;6657,96
 2026-06-17;"Recursos não Vinculados de Impostos";1860,00;1860,00;1860,00
-2026-06-17;"Transf. Fundo a Fundo de Rec. do SUS do Gov. Fed. - Bloco de Manutenção das Ações e Serviços Público";315407,00;212176,93;189678,12
+2026-06-17;"Transf. Fundo a Fundo de Rec. do SUS do Gov. Fed. - Bloco de Manutenção das Ações e Serviços Público";315407,00;212176,93;212176,93
 2026-06-17;"Transferências do FUNDEB - Impostos e Transferências de Impostos";13735,88;13735,88;13735,88
 2026-06-18;"Outros Recursos não Vinculados";29401,00;29308,00;29308,00
 2026-06-18;"Recursos da Contribuição para o Custeio do Serviço de Iluminação Pública - COSIP";15993,50;15993,50;15993,50
@@ -611,7 +611,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-06-29;"Outros Recursos não Vinculados";32273,94;27273,94;27273,94
 2026-06-29;"Recursos da Contribuição para o Custeio do Serviço de Iluminação Pública - COSIP";8342,99;8342,99;8342,99
 2026-06-29;"Recursos não Vinculados de Impostos";2010759,07;1411894,96;1411894,96
-2026-06-29;"Transf. Fundo a Fundo de Rec. do SUS do Gov. Fed. - Bloco de Manutenção das Ações e Serviços Público";1199000,00;706319,73;689319,73
+2026-06-29;"Transf. Fundo a Fundo de Rec. do SUS do Gov. Fed. - Bloco de Manutenção das Ações e Serviços Público";1199000,00;706319,73;706319,73
 2026-06-29;"Transferências Fundo a Fundo de Recursos do SUS provenientes do Governo Estadual";442300,00;290418,39;290418,39
 2026-06-29;"Transferências da União Referentes às participações na exploração de Petróleo e Gás Natural destinad";934,48;934,48;934,48
 2026-06-29;"Transferências do Estado referentes a Convênios e Instrumentos Congêneres vinculados à Saúde";510,00;510,00;510,00
@@ -658,7 +658,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-07-10;"Transferências do FUNDEB - Complementação da União - VAAR";20000,00;19175,13;19175,13
 2026-07-10;"Transferências do FUNDEB - Impostos e Transferências de Impostos";289324,46;289324,46;289324,46
 2026-07-13;"Outros Recursos não Vinculados";747759,94;747759,94;747759,94
-2026-07-13;"Recursos Vinculados ao Trânsito";1317,80;1317,80;418,00
+2026-07-13;"Recursos Vinculados ao Trânsito";1317,80;1317,80;1317,80
 2026-07-13;"Recursos não Vinculados de Impostos";59989,09;59989,09;59989,09
 2026-07-13;"Transf prov do Gov Fed dest ao venc dos agentes comunit de saúde e dos agentes de combate à endemia";613,55;613,55;613,55
 2026-07-13;"Transf. Fundo a Fundo de Rec. do SUS do Gov. Fed. - Bloco de Manutenção das Ações e Serviços Público";494,99;494,99;494,99
@@ -716,7 +716,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-07-30;"Outros Recursos não Vinculados";10528,65;10528,65;10528,65
 2026-07-30;"Recursos não Vinculados de Impostos";710,91;710,91;710,91
 2026-07-30;"Transf. Fundo a Fundo de Rec. do SUS do Gov. Fed. - Bloco de Manutenção das Ações e Serviços Público";4530,50;3730,50;3730,50
-2026-07-30;"Transferências Fundo a Fundo de Recursos do SUS provenientes do Governo Estadual";199328,92;180905,27;178541,47
+2026-07-30;"Transferências Fundo a Fundo de Recursos do SUS provenientes do Governo Estadual";199328,92;180905,27;178825,27
 2026-07-31;"Outros Recursos não Vinculados";1441285,25;1441285,25;1430785,25
 2026-07-31;"Recursos da Contribuição para o Custeio do Serviço de Iluminação Pública - COSIP";15241,78;15241,78;15241,78
 2026-07-31;"Recursos não Vinculados de Impostos";1229957,90;1229957,90;1229957,90
@@ -832,9 +832,9 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-09-01;"Transferências de Recursos do FNDE Referentes ao Prog. Nacional de Apoio ao Transp. Escolar (PNATE)";20000,00;20000,00;20000,00
 2026-09-01;"Transferências do FUNDEB - Complementação da União - VAAR";75345,92;55243,69;55243,69
 2026-09-01;"Transferências do FUNDEB - Impostos e Transferências de Impostos";8666,67;8666,67;8666,67
-2026-09-02;"Outros Recursos não Vinculados";104580,62;101851,53;98910,73
+2026-09-02;"Outros Recursos não Vinculados";104580,62;101889,77;98910,73
 2026-09-02;"Recursos não Vinculados de Impostos";2703,88;2703,88;2703,88
-2026-09-02;"Transf. Fundo a Fundo de Rec. do SUS do Gov. Fed. - Bloco de Manutenção das Ações e Serviços Público";17000,00;10795,09;10795,09
+2026-09-02;"Transf. Fundo a Fundo de Rec. do SUS do Gov. Fed. - Bloco de Manutenção das Ações e Serviços Público";17000,00;12936,81;10795,09
 2026-09-03;"Assistência financeira da União destinada à complementação ao pagamento dos pisos salariais para profissionais da enfermagem.";42000,00;18063,29;18063,29
 2026-09-03;"Outros Recursos não Vinculados";13890,16;12170,16;12170,16
 2026-09-03;"Recursos não Vinculados de Impostos";1089,40;1089,40;1089,40
@@ -852,10 +852,10 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-09-08;"Outros Recursos não Vinculados";64192,34;61742,34;61742,34
 2026-09-08;"Recursos não Vinculados de Impostos";35803,04;35803,04;35803,04
 2026-09-08;"Transferências do FUNDEB - Impostos e Transferências de Impostos";7462,42;7462,42;7462,42
-2026-09-09;"Outros Recursos não Vinculados";320048,80;200047,44;132386,65
+2026-09-09;"Outros Recursos não Vinculados";320048,80;210407,93;132386,65
 2026-09-09;"Recursos não Vinculados de Impostos";15121,30;10559,42;10559,42
 2026-09-09;"Transferência do Salário-Educação";178673,58;108432,47;108432,47
-2026-09-09;"Transferências de Recursos do FNDE referentes ao Programa Nacional de Alimentação Escolar (PNAE)";362074,86;275771,91;230032,29
+2026-09-09;"Transferências de Recursos do FNDE referentes ao Programa Nacional de Alimentação Escolar (PNAE)";362074,86;310403,68;245922,65
 2026-09-09;"Transferências do FUNDEB - Complementação da União - VAAR";5383,00;5383,00;5383,00
 2026-09-09;"Transferências do FUNDEB - Impostos e Transferências de Impostos";6284,18;6284,18;6284,18
 2026-09-10;"Outros Recursos não Vinculados";62071,19;62071,19;59946,19
@@ -911,7 +911,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-09-25;"Outras Transferências de Convênios ou Instrumentos Congêneres da União";110599,43;110599,43;110599,43
 2026-09-25;"Outros Recursos não Vinculados";2221,40;2221,40;2221,40
 2026-09-25;"Recursos não Vinculados de Impostos";15497,00;11897,92;11897,92
-2026-09-28;"Outros Recursos não Vinculados";57736,13;35412,13;34732,13
+2026-09-28;"Outros Recursos não Vinculados";57736,13;35412,13;35412,13
 2026-09-28;"Recursos não Vinculados de Impostos";1855,60;1855,60;1855,60
 2026-09-28;"Transferência de Recursos do Fundo Nacional de Assistência Social - FNAS";1140,00;1140,00;1140,00
 2026-09-28;"Transferências da União Referentes às participações na exploração de Petróleo e Gás Natural destinad";679,90;679,90;679,90
@@ -930,7 +930,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-09-30;"Transferências de Recursos do FNDE referentes ao Programa Nacional de Alimentação Escolar (PNAE)";3743,60;1697,14;1697,14
 2026-09-30;"Transferências do FUNDEB - Impostos e Transferências de Impostos";176,52;176,52;176,52
 2026-10-01;"Outros Recursos não Vinculados";36145,47;36145,47;31952,07
-2026-10-01;"Recursos Vinculados a Fundos";243500,00;243500,00;0,00
+2026-10-01;"Recursos Vinculados a Fundos";243500,00;243500,00;243500,00
 2026-10-01;"Recursos não Vinculados de Impostos";17047,58;17047,58;17047,58
 2026-10-01;"Transf. Fundo a Fundo de Rec. do SUS do Gov. Fed. - Bloco de Manutenção das Ações e Serviços Público";11600,00;11600,00;11600,00
 2026-10-01;"Transferência de Recursos do Fundo Nacional de Assistência Social - FNAS";796,00;796,00;796,00
@@ -968,10 +968,10 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-10-08;"Outros Recursos não Vinculados";69995,13;69040,13;64220,13
 2026-10-08;"Recursos não Vinculados de Impostos";5524,28;3459,26;3459,26
 2026-10-08;"Transf. Fundo a Fundo de Rec. do SUS do Gov. Fed. - Bloco de Manutenção das Ações e Serviços Público";3899,00;3519,84;3519,84
-2026-10-08;"Transferência de Recursos do Fundo Nacional de Assistência Social - FNAS";5000,00;4050,17;3215,09
+2026-10-08;"Transferência de Recursos do Fundo Nacional de Assistência Social - FNAS";5000,00;4050,17;4050,17
 2026-10-08;"Transferência de Recursos dos Fundos Estaduais de Assistência Social";6770,40;6770,40;6770,40
 2026-10-08;"Transferências Fundo a Fundo de Recursos do SUS provenientes do Governo Estadual";404,35;404,35;404,35
-2026-10-08;"Transferências da União Referentes às participações na exploração de Petróleo e Gás Natural destinad";20000,00;10533,73;6028,55
+2026-10-08;"Transferências da União Referentes às participações na exploração de Petróleo e Gás Natural destinad";20000,00;10533,73;9395,91
 2026-10-08;"Transferências do FUNDEB - Impostos e Transferências de Impostos";0,00;0,00;0,00
 2026-10-09;"Outros Recursos não Vinculados";75784,40;49594,02;49594,02
 2026-10-09;"Recursos da Contribuição de Intervenção no Domínio Econômico - CIDE";600,00;314,67;314,67
@@ -982,7 +982,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-10-13;"Recursos não Vinculados de Impostos";1136,53;1136,53;1136,53
 2026-10-14;"Outros Recursos não Vinculados";86496,26;84809,18;76443,40
 2026-10-14;"Recursos não Vinculados de Impostos";10876,00;10876,00;10876,00
-2026-10-14;"Transf. Fundo a Fundo de Rec. do SUS do Gov. Fed. - Bloco de Manutenção das Ações e Serviços Público";29450,69;27540,99;24742,39
+2026-10-14;"Transf. Fundo a Fundo de Rec. do SUS do Gov. Fed. - Bloco de Manutenção das Ações e Serviços Público";29450,69;27540,99;27540,99
 2026-10-14;"Transferências do FUNDEB - Complementação da União - VAAR";98148,94;98148,94;98148,94
 2026-10-15;"Outros Recursos não Vinculados";8136,28;8136,28;6185,28
 2026-10-15;"Recursos não Vinculados de Impostos";2050,64;2050,64;2050,64
@@ -992,7 +992,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-10-16;"Transf. Fundo a Fundo de Rec. do SUS do Gov. Fed. - Bloco de Manutenção das Ações e Serviços Público";732,50;132,50;0,00
 2026-10-16;"Transferência da União Referente à Compensação Financeira de Recursos Minerais";83,14;83,14;83,14
 2026-10-16;"Transferências Fundo a Fundo de Recursos do SUS provenientes do Governo Estadual";3607,96;1300,00;1300,00
-2026-10-16;"Transferências do Estado referentes a Convênios e Instrumentos Congêneres vinculados à Saúde";2077,00;2077,00;0,00
+2026-10-16;"Transferências do Estado referentes a Convênios e Instrumentos Congêneres vinculados à Saúde";2077,00;2077,00;2077,00
 2026-10-16;"Transferências do FUNDEB - Impostos e Transferências de Impostos";10704,67;10704,67;6879,67
 2026-10-19;"Outras Transferências de Convênios ou Instrumentos Congêneres dos Estados";7434802,28;2006983,95;2006983,95
 2026-10-19;"Outros Recursos não Vinculados";137747,84;64470,66;64362,66
@@ -1016,9 +1016,9 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-10-21;"Transferências Fundo a Fundo de Recursos do SUS provenientes do Governo Estadual";10,00;10,00;10,00
 2026-10-21;"Transferências do FUNDEB - Impostos e Transferências de Impostos";19500,00;6500,00;6500,00
 2026-10-22;"Outros Recursos Vinculados à Assistência Social";15000,00;15000,00;15000,00
-2026-10-22;"Outros Recursos não Vinculados";8751,25;7856,90;5243,90
-2026-10-22;"Transf. Fundo a Fundo de Rec. do SUS do Gov. Fed. - Bloco de Manutenção das Ações e Serviços Público";23000,00;19708,36;19078,87
-2026-10-22;"Transferência da União Referente à Compensação Financeira de Recursos Minerais";6635,00;2783,00;2783,00
+2026-10-22;"Outros Recursos não Vinculados";8751,25;8549,30;5243,90
+2026-10-22;"Transf. Fundo a Fundo de Rec. do SUS do Gov. Fed. - Bloco de Manutenção das Ações e Serviços Público";23000,00;19708,36;19708,36
+2026-10-22;"Transferência da União Referente à Compensação Financeira de Recursos Minerais";6635,00;3415,00;2783,00
 2026-10-22;"Transferência de Recursos do Fundo Nacional de Assistência Social - FNAS";6000,00;1837,71;1837,71
 2026-10-22;"Transferências do FUNDEB - Impostos e Transferências de Impostos";9000,00;0,00;0,00
 2026-10-23;"Outros Recursos não Vinculados";5849,16;0,00;0,00
@@ -1027,11 +1027,11 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-10-23;"Transferências Fundo a Fundo de Recursos do SUS provenientes do Governo Estadual";1748,50;1748,50;1748,50
 2026-10-26;"Outros Recursos não Vinculados";298,20;298,20;298,20
 2026-10-26;"Recursos não Vinculados de Impostos";754,46;754,46;754,46
-2026-10-27;"Outros Recursos não Vinculados";2008,97;178,89;178,89
+2026-10-27;"Outros Recursos não Vinculados";2008,97;2008,97;2008,97
 2026-10-27;"Transferência de Recursos do Fundo Nacional de Assistência Social - FNAS";940,00;940,00;940,00
 2026-10-27;"Transferências do FUNDEB - Impostos e Transferências de Impostos";2918,74;2918,74;2918,74
-2026-10-28;"Outros Recursos não Vinculados";8241,60;6441,60;5892,60
-2026-10-28;"Recursos da Contribuição de Intervenção no Domínio Econômico - CIDE";8071,33;6740,73;2300,73
+2026-10-28;"Outros Recursos não Vinculados";8241,60;6441,60;6092,60
+2026-10-28;"Recursos da Contribuição de Intervenção no Domínio Econômico - CIDE";8071,33;6740,73;2600,73
 2026-10-28;"Recursos não Vinculados de Impostos";3075,45;1865,56;1865,56
 2026-10-28;"Transf. Fundo a Fundo de Rec. do SUS do Gov. Fed. - Bloco de Manutenção das Ações e Serviços Público";4160,06;936,00;936,00
 2026-10-28;"Transferências Fundo a Fundo de Recursos do SUS provenientes do Governo Estadual";4107,12;1847,12;1847,12
@@ -1057,7 +1057,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-11-04;"Outros Recursos não Vinculados";299379,79;170028,32;170028,32
 2026-11-04;"Recursos não Vinculados de Impostos";113083,72;56541,86;56541,86
 2026-11-04;"Transferências Fundo a Fundo de Recursos do SUS provenientes do Governo Estadual";19298,00;19298,00;19298,00
-2026-11-05;"Outros Recursos não Vinculados";128148,22;57272,77;38303,04
+2026-11-05;"Outros Recursos não Vinculados";128148,22;58387,77;38303,04
 2026-11-05;"Recursos da Contribuição de Intervenção no Domínio Econômico - CIDE";4949,09;3989,09;3989,09
 2026-11-05;"Recursos não Vinculados de Impostos";4342,50;3630,53;3630,53
 2026-11-05;"Transf prov do Gov Fed dest ao venc dos agentes comunit de saúde e dos agentes de combate à endemia";1955,22;1955,22;1955,22
@@ -1066,7 +1066,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-11-05;"Transferências do FUNDEB - Complementação da União - VAAT";680,00;0,00;0,00
 2026-11-05;"Transferências do FUNDEB - Impostos e Transferências de Impostos";10710,03;243,00;243,00
 2026-11-06;"Demais Transferências Obrigatórias não Decorrentes de Repartições de Receitas.";16087,23;0,00;0,00
-2026-11-06;"Outros Recursos não Vinculados";121620,77;111891,26;2847,29
+2026-11-06;"Outros Recursos não Vinculados";121620,77;113936,26;7331,01
 2026-11-06;"Recursos não Vinculados de Impostos";28709,62;10309,62;10309,62
 2026-11-06;"Transf prov do Gov Fed dest ao venc dos agentes comunit de saúde e dos agentes de combate à endemia";0,00;0,00;0,00
 2026-11-06;"Transf. Fundo a Fundo de Rec. do SUS do Gov. Fed. - Bloco de Manutenção das Ações e Serviços Público";872,00;752,00;752,00
@@ -1075,13 +1075,14 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-11-09;"Outros Recursos não Vinculados";199087,85;105765,73;103042,73
 2026-11-09;"Recursos não Vinculados de Impostos";18453,00;18453,00;3453,00
 2026-11-09;"Transf. Fundo a Fundo de Rec. do SUS do Gov. Fed. - Bloco de Manutenção das Ações e Serviços Público";2550,00;850,00;850,00
-2026-11-10;"Outros Recursos não Vinculados";148107,05;4916,07;391,92
-2026-11-10;"Recursos não Vinculados de Impostos";15867,95;2400,22;0,00
+2026-11-10;"Outros Recursos não Vinculados";148107,05;15362,20;2856,20
+2026-11-10;"Recursos não Vinculados de Impostos";15867,95;4682,72;2400,22
 2026-11-10;"Transferências da Política Nacional Aldir Blanc de Fomento à Cultura - Lei nº 14.399/2022";65000,00;0,00;0,00
-2026-11-10;"Transferências do FUNDEB - Impostos e Transferências de Impostos";3150,00;0,00;0,00
-2026-11-11;"Outros Recursos não Vinculados";48899,77;89,00;0,00
-2026-11-11;"Recursos não Vinculados de Impostos";11516,56;10320,00;0,00
-2026-11-11;"Transf. Fundo a Fundo de Rec. do SUS do Gov. Fed. - Bloco de Manutenção das Ações e Serviços Público";11989,62;10000,00;0,00
-2026-11-11;"Transferências Fundo a Fundo de Recursos do SUS provenientes do Governo Estadual";2360,00;0,00;0,00
+2026-11-10;"Transferências do FUNDEB - Impostos e Transferências de Impostos";3150,00;250,00;0,00
+2026-11-11;"Outros Recursos não Vinculados";56750,19;23626,26;3650,31
+2026-11-11;"Recursos não Vinculados de Impostos";11516,56;11516,56;10320,00
+2026-11-11;"Transf. Fundo a Fundo de Rec. do SUS do Gov. Fed. - Bloco de Manutenção das Ações e Serviços Público";11989,62;10000,00;10000,00
+2026-11-11;"Transferência de Recursos do Fundo Nacional de Assistência Social - FNAS";141,50;141,50;0,00
+2026-11-11;"Transferências Fundo a Fundo de Recursos do SUS provenientes do Governo Estadual";4666,00;0,00;0,00
 2026-11-11;"Transferências do FUNDEB - Impostos e Transferências de Impostos";6624,90;0,00;0,00
 2026-11-11;"Transferências do Governo Federal referente a Convênios e Instrumentos Congêneres vinculados à Saúde";485,00;0,00;0,00
