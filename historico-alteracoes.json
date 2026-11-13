@@ -385,5 +385,32 @@
     "campo": "e",
     "antes": 452523431,
     "depois": 452503731
+  },
+  {
+    "detectado_em": "2026-11-13",
+    "ano": 2026,
+    "mes": 9,
+    "area": "Urbanismo",
+    "campo": "e",
+    "antes": 20956229,
+    "depois": 20951029
+  },
+  {
+    "detectado_em": "2026-11-13",
+    "ano": 2026,
+    "mes": 10,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 71195258,
+    "depois": 71185654
+  },
+  {
+    "detectado_em": "2026-11-13",
+    "ano": 2026,
+    "mes": 10,
+    "area": "Urbanismo",
+    "campo": "e",
+    "antes": 772600424,
+    "depois": 772090484
   }
 ]
