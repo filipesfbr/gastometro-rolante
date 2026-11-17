@@ -412,5 +412,140 @@
     "campo": "e",
     "antes": 772600424,
     "depois": 772090484
+  },
+  {
+    "detectado_em": "2026-11-17",
+    "ano": 2026,
+    "mes": 1,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 761853605,
+    "depois": 761846665
+  },
+  {
+    "detectado_em": "2026-11-17",
+    "ano": 2026,
+    "mes": 3,
+    "area": "Assistência Social",
+    "campo": "e",
+    "antes": 16649049,
+    "depois": 16625049
+  },
+  {
+    "detectado_em": "2026-11-17",
+    "ano": 2026,
+    "mes": 3,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 175759509,
+    "depois": 175738469
+  },
+  {
+    "detectado_em": "2026-11-17",
+    "ano": 2026,
+    "mes": 4,
+    "area": "Administração",
+    "campo": "e",
+    "antes": 160835229,
+    "depois": 160820232
+  },
+  {
+    "detectado_em": "2026-11-17",
+    "ano": 2026,
+    "mes": 4,
+    "area": "Educação",
+    "campo": "e",
+    "antes": 400894103,
+    "depois": 400612908
+  },
+  {
+    "detectado_em": "2026-11-17",
+    "ano": 2026,
+    "mes": 4,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 191726702,
+    "depois": 191644676
+  },
+  {
+    "detectado_em": "2026-11-17",
+    "ano": 2026,
+    "mes": 5,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 230306232,
+    "depois": 230238732
+  },
+  {
+    "detectado_em": "2026-11-17",
+    "ano": 2026,
+    "mes": 6,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 534483396,
+    "depois": 534442436
+  },
+  {
+    "detectado_em": "2026-11-17",
+    "ano": 2026,
+    "mes": 7,
+    "area": "Agricultura",
+    "campo": "e",
+    "antes": 23957522,
+    "depois": 23892683
+  },
+  {
+    "detectado_em": "2026-11-17",
+    "ano": 2026,
+    "mes": 9,
+    "area": "Educação",
+    "campo": "e",
+    "antes": 413962911,
+    "depois": 412679688
+  },
+  {
+    "detectado_em": "2026-11-17",
+    "ano": 2026,
+    "mes": 9,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 255269585,
+    "depois": 255247955
+  },
+  {
+    "detectado_em": "2026-11-17",
+    "ano": 2026,
+    "mes": 9,
+    "area": "Urbanismo",
+    "campo": "e",
+    "antes": 20951029,
+    "depois": 20937940
+  },
+  {
+    "detectado_em": "2026-11-17",
+    "ano": 2026,
+    "mes": 10,
+    "area": "Administração",
+    "campo": "e",
+    "antes": 89000408,
+    "depois": 88998435
+  },
+  {
+    "detectado_em": "2026-11-17",
+    "ano": 2026,
+    "mes": 10,
+    "area": "Desporto e Lazer",
+    "campo": "e",
+    "antes": 8072753,
+    "depois": 7776473
+  },
+  {
+    "detectado_em": "2026-11-17",
+    "ano": 2026,
+    "mes": 10,
+    "area": "Educação",
+    "campo": "e",
+    "antes": 342546093,
+    "depois": 342449677
   }
 ]
