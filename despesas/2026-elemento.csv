@@ -27,7 +27,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-01-08;"Diárias - civil";3660,00;3660,00;3660,00
 2026-01-08;"Equipamentos e material permanente";0,00;0,00;0,00
 2026-01-08;"Material de consumo";11982,15;11982,15;11982,15
-2026-01-08;"Obras e instalações";7693046,67;2576169,87;2576169,87
+2026-01-08;"Obras e instalações";7549046,67;2576169,87;2576169,87
 2026-01-08;"Obrigacoes Patronais";60700,00;56619,54;56619,54
 2026-01-08;"Obrigações patronais";254,58;254,58;254,58
 2026-01-08;"Obrigações tributárias e contributivas";416,49;416,49;416,49
@@ -42,7 +42,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-01-09;"Material de consumo";4019,51;4019,51;4019,51
 2026-01-09;"Obrigações patronais";8871,54;8871,54;8871,54
 2026-01-09;"Obrigações tributárias e contributivas";328594,62;328594,62;327590,77
-2026-01-09;"Outros serviços de terceiros - pessoa jurídica";71423,51;62114,48;57505,12
+2026-01-09;"Outros serviços de terceiros - pessoa jurídica";71423,51;62114,48;62114,48
 2026-01-09;"Principal da dívida contratual resgatado";32335,73;32335,73;32335,73
 2026-01-09;"Vencimentos e vantagens fixas - pessoal civil";21841,06;21841,06;21841,06
 2026-01-12;"Contribuições";622944,00;511551,00;511551,00
@@ -237,7 +237,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-02-24;"Obras e instalações";3480,00;3480,00;3480,00
 2026-02-24;"Obrigações patronais";93,84;93,84;93,84
 2026-02-24;"Obrigações tributárias e contributivas";510,95;510,95;510,95
-2026-02-24;"Outros serviços de terceiros - pessoa jurídica";171082,53;157130,78;144080,78
+2026-02-24;"Outros serviços de terceiros - pessoa jurídica";171082,53;157130,78;157130,78
 2026-02-24;"Vencimentos e vantagens fixas - pessoal civil";496,46;496,46;496,46
 2026-02-25;"Diárias - civil";180,00;180,00;180,00
 2026-02-25;"Material de consumo";36420,09;36271,29;36271,29
@@ -606,7 +606,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-05-29;"Obrigações tributárias e contributivas";58984,89;58984,89;58984,89
 2026-05-29;"Outras despesas variáveis - pessoal civil";61958,01;61958,01;61958,01
 2026-05-29;"Outros serviços de terceiros - pessoa física";95798,57;95798,57;95798,57
-2026-05-29;"Outros serviços de terceiros - pessoa jurídica";231232,16;229232,16;229065,56
+2026-05-29;"Outros serviços de terceiros - pessoa jurídica";231232,16;229232,16;229232,16
 2026-05-29;"Passagens e despesas com locomoção";565,88;565,88;565,88
 2026-05-29;"Pensões";21876,51;21876,51;21876,51
 2026-05-29;"Vencimentos e vantagens fixas - pessoal civil";3946222,92;3946222,92;3946222,92
@@ -663,7 +663,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-06-15;"Material de consumo";27636,68;27520,68;27520,68
 2026-06-15;"Obras e instalações";13572,00;13572,00;13572,00
 2026-06-15;"Outros serviços de terceiros - pessoa física";936,98;936,98;936,98
-2026-06-15;"Outros serviços de terceiros - pessoa jurídica";54947,59;43704,43;39956,71
+2026-06-15;"Outros serviços de terceiros - pessoa jurídica";54947,59;43704,43;43704,43
 2026-06-15;"Passagens e despesas com locomoção";218,08;218,08;218,08
 2026-06-16;"Equipamentos e material permanente";950,00;950,00;950,00
 2026-06-16;"Material de consumo";19277,61;19054,16;19054,16
@@ -752,7 +752,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-07-06;"Equipamentos e material permanente";1390,00;1390,00;1390,00
 2026-07-06;"Material de consumo";29400,69;28940,69;28940,69
 2026-07-06;"Obrigações tributárias e contributivas";5640,31;5640,31;5640,31
-2026-07-06;"Outros serviços de terceiros - pessoa jurídica";31630,53;30631,72;29381,72
+2026-07-06;"Outros serviços de terceiros - pessoa jurídica";31630,53;30631,72;30631,72
 2026-07-06;"Passagens e despesas com locomoção";96,40;96,40;96,40
 2026-07-06;"Premiações culturais, artísticas, científicas, desportivas e outras";111,00;111,00;111,00
 2026-07-06;"Serviços de tecnologia da informação e comunicação - PJ";173767,56;148937,56;148937,56
@@ -840,7 +840,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-07-24;"Material de consumo";72828,30;72828,30;72828,30
 2026-07-24;"Obras e instalações";26508,85;26508,85;26508,85
 2026-07-24;"Outros serviços de terceiros - pessoa física";3113,64;3113,64;3113,64
-2026-07-24;"Outros serviços de terceiros - pessoa jurídica";18196,80;18196,80;2196,80
+2026-07-24;"Outros serviços de terceiros - pessoa jurídica";18196,80;18196,80;18196,80
 2026-07-24;"Vencimentos e vantagens fixas - pessoal civil";7688,62;7688,62;7688,62
 2026-07-27;"Contribuições";450000,00;450000,00;450000,00
 2026-07-27;"Material de consumo";6612,53;6612,53;6612,53
@@ -857,7 +857,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-07-30;"Diárias - civil";660,00;660,00;660,00
 2026-07-30;"Material de consumo";4626,55;4626,55;4626,55
 2026-07-30;"Material, bem ou serviço para distribuição gratuita";199328,92;181009,27;181009,27
-2026-07-30;"Outros serviços de terceiros - pessoa jurídica";10432,60;9632,60;9632,60
+2026-07-30;"Outros serviços de terceiros - pessoa jurídica";10432,60;10432,60;9632,60
 2026-07-30;"Passagens e despesas com locomoção";50,91;50,91;50,91
 2026-07-31;"Aposentadorias, reserva remunerada e reformas";23369,40;23369,40;23369,40
 2026-07-31;"Contribuições";79805,00;79805,00;69305,00
@@ -937,20 +937,20 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-08-18;"Sentenças judiciais";989,70;989,70;989,70
 2026-08-19;"Indenizações e restituições";86,54;86,54;86,54
 2026-08-19;"Material de consumo";6781,14;6781,14;6781,14
-2026-08-19;"Outros serviços de terceiros - pessoa jurídica";97195,83;72462,86;63947,96
+2026-08-19;"Outros serviços de terceiros - pessoa jurídica";97195,83;72732,01;63947,96
 2026-08-19;"Passagens e despesas com locomoção";60,00;60,00;60,00
 2026-08-20;"Contribuições";30000,00;30000,00;30000,00
 2026-08-20;"Diárias - civil";60,00;60,00;60,00
 2026-08-20;"Material de consumo";75134,09;75134,09;75134,09
 2026-08-20;"Outros serviços de terceiros - pessoa física";642,50;642,50;642,50
-2026-08-20;"Outros serviços de terceiros - pessoa jurídica";256519,28;176303,63;174922,83
+2026-08-20;"Outros serviços de terceiros - pessoa jurídica";223947,16;176303,63;174922,83
 2026-08-20;"Passagens e despesas com locomoção";336,90;336,90;336,90
 2026-08-20;"Vencimentos e vantagens fixas - pessoal civil";6108,34;6108,34;6108,34
 2026-08-21;"Contribuições";15000,00;15000,00;15000,00
 2026-08-21;"Diárias - civil";780,00;780,00;780,00
 2026-08-21;"Equipamentos e material permanente";0,00;0,00;0,00
 2026-08-21;"Material de consumo";9563,62;9563,62;9563,62
-2026-08-21;"Outros serviços de terceiros - pessoa jurídica";2000,00;1974,38;1695,98
+2026-08-21;"Outros serviços de terceiros - pessoa jurídica";2000,00;1974,38;1885,38
 2026-08-21;"Vencimentos e vantagens fixas - pessoal civil";1797,91;1797,91;1797,91
 2026-08-24;"Material de consumo";15444,19;12655,74;12655,74
 2026-08-24;"Outros serviços de terceiros - pessoa física";3187,65;3187,65;3187,65
@@ -1020,7 +1020,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-09-08;"Outros serviços de terceiros - pessoa jurídica";24085,20;24085,20;24085,20
 2026-09-08;"Passagens e despesas com locomoção";428,69;428,69;428,69
 2026-09-08;"Vencimentos e vantagens fixas - pessoal civil";45959,09;45959,09;45959,09
-2026-09-09;"Material de consumo";841845,09;616686,97;523240,67
+2026-09-09;"Material de consumo";839469,09;616686,97;545955,04
 2026-09-09;"Outros serviços de terceiros - pessoa jurídica";21157,20;21157,20;21157,20
 2026-09-09;"Passagens e despesas com locomoção";130,00;130,00;130,00
 2026-09-09;"Sentenças judiciais";8749,13;8749,13;8749,13
@@ -1032,7 +1032,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-09-10;"Passagens e despesas com locomoção";60,00;60,00;60,00
 2026-09-10;"Principal da dívida contratual resgatado";34028,26;34028,26;34028,26
 2026-09-10;"Vencimentos e vantagens fixas - pessoal civil";43140,41;43140,41;43140,41
-2026-09-11;"Outros serviços de terceiros - pessoa jurídica";45326,14;13652,94;4427,94
+2026-09-11;"Outros serviços de terceiros - pessoa jurídica";45326,14;30682,11;4427,94
 2026-09-11;"Principal da dívida contratual resgatado";100655,05;100655,05;100655,05
 2026-09-11;"Vencimentos e vantagens fixas - pessoal civil";8841,39;8841,39;8841,39
 2026-09-14;"Indenizações e restituições";144,13;144,13;144,13
@@ -1062,7 +1062,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-09-17;"Passagens e despesas com locomoção";81,80;81,80;81,80
 2026-09-17;"Vencimentos e vantagens fixas - pessoal civil";7105,93;7105,93;7105,93
 2026-09-18;"Outros serviços de terceiros - pessoa física";2528,60;2528,60;2528,60
-2026-09-18;"Outros serviços de terceiros - pessoa jurídica";8000,00;7640,29;6788,77
+2026-09-18;"Outros serviços de terceiros - pessoa jurídica";8000,00;7763,37;6788,77
 2026-09-18;"Vencimentos e vantagens fixas - pessoal civil";5092,12;5092,12;5092,12
 2026-09-21;"Contribuições";42000,00;42000,00;42000,00
 2026-09-21;"Material de consumo";2118,00;1915,00;1915,00
@@ -1135,17 +1135,17 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-10-06;"Outros serviços de terceiros - pessoa física";921,00;332,71;332,71
 2026-10-06;"Outros serviços de terceiros - pessoa jurídica";35182,38;16560,42;14287,44
 2026-10-06;"Vencimentos e vantagens fixas - pessoal civil";18214,90;18214,90;18214,90
-2026-10-07;"Material de consumo";29321,46;28522,46;13467,57
+2026-10-07;"Material de consumo";29321,46;28522,46;19781,21
 2026-10-07;"Material, bem ou serviço para distribuição gratuita";21519,12;20319,12;1531,26
 2026-10-07;"Outros serviços de terceiros - pessoa física";11434,68;5717,34;5717,34
-2026-10-07;"Outros serviços de terceiros - pessoa jurídica";60044,70;34504,20;31704,30
+2026-10-07;"Outros serviços de terceiros - pessoa jurídica";60044,70;34504,20;34504,20
 2026-10-07;"Passagens e despesas com locomoção";201,76;201,76;201,76
 2026-10-08;"Material de consumo";31284,90;19838,84;18701,02
 2026-10-08;"Material, bem ou serviço para distribuição gratuita";9220,40;9220,40;9220,40
-2026-10-08;"Outros serviços de terceiros - pessoa jurídica";8434,12;6064,90;1244,90
+2026-10-08;"Outros serviços de terceiros - pessoa jurídica";8434,12;6064,90;3654,90
 2026-10-08;"Vencimentos e vantagens fixas - pessoal civil";62653,79;62653,79;62653,79
 2026-10-09;"Contribuições";12000,00;12000,00;12000,00
-2026-10-09;"Material de consumo";22552,86;1795,00;1795,00
+2026-10-09;"Material de consumo";22552,86;22195,00;1795,00
 2026-10-09;"Obrigações tributárias e contributivas";600,00;314,67;314,67
 2026-10-09;"Outros serviços de terceiros - pessoa física";1143,25;1143,25;1143,25
 2026-10-09;"Outros serviços de terceiros - pessoa jurídica";99195,09;46901,09;46901,09
@@ -1158,7 +1158,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-10-14;"Material, bem ou serviço para distribuição gratuita";762,56;762,56;762,56
 2026-10-14;"Obras e instalações";98148,94;98148,94;98148,94
 2026-10-14;"Outros serviços de terceiros - pessoa física";9646,13;9646,13;9646,13
-2026-10-14;"Outros serviços de terceiros - pessoa jurídica";51329,04;48316,34;40626,34
+2026-10-14;"Outros serviços de terceiros - pessoa jurídica";51329,04;48316,34;48316,34
 2026-10-14;"Passagens e despesas com locomoção";199,50;199,50;199,50
 2026-10-14;"Sentenças judiciais";4132,02;4132,02;4132,02
 2026-10-15;"Diárias - civil";1920,00;1920,00;1920,00
@@ -1174,17 +1174,17 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-10-16;"Vencimentos e vantagens fixas - pessoal civil";24648,08;24648,08;24648,08
 2026-10-19;"Diárias - civil";600,00;600,00;600,00
 2026-10-19;"Equipamentos e material permanente";1499,00;1499,00;1499,00
-2026-10-19;"Material de consumo";11525,45;10595,67;8639,30
-2026-10-19;"Material, bem ou serviço para distribuição gratuita";7107,60;7107,60;0,00
+2026-10-19;"Material de consumo";11525,45;10595,67;10315,67
+2026-10-19;"Material, bem ou serviço para distribuição gratuita";7107,60;7107,60;7107,60
 2026-10-19;"Obras e instalações";7434802,28;2006983,95;2006983,95
 2026-10-19;"Obrigações patronais";1601,40;1601,40;1601,40
 2026-10-19;"Obrigações tributárias e contributivas";2326,58;2326,58;2326,58
 2026-10-19;"Outros serviços de terceiros - pessoa física";1664,83;1664,83;1664,83
-2026-10-19;"Outros serviços de terceiros - pessoa jurídica";125621,42;92816,65;57230,82
+2026-10-19;"Outros serviços de terceiros - pessoa jurídica";125621,42;92816,65;58295,90
 2026-10-19;"Sentenças judiciais";6507,14;6507,14;6507,14
 2026-10-19;"Vencimentos e vantagens fixas - pessoal civil";43618,79;43618,79;43618,79
 2026-10-20;"Contribuições";15000,00;15000,00;15000,00
-2026-10-20;"Material de consumo";14967,10;11710,41;4418,50
+2026-10-20;"Material de consumo";14967,10;11710,41;5818,32
 2026-10-20;"Obrigações patronais";1832,59;1832,59;1832,59
 2026-10-20;"Outros serviços de terceiros - pessoa física";2037,32;2037,32;2037,32
 2026-10-20;"Outros serviços de terceiros - pessoa jurídica";4926,75;4439,60;4439,60
@@ -1195,8 +1195,8 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-10-21;"Outros serviços de terceiros - pessoa jurídica";21218,00;8218,00;6868,00
 2026-10-21;"Passagens e despesas com locomoção";54,37;54,37;54,37
 2026-10-22;"Contribuições";15000,00;15000,00;15000,00
-2026-10-22;"Material de consumo";31671,25;27957,66;25344,66
-2026-10-22;"Outros serviços de terceiros - pessoa jurídica";21715,00;6237,89;5621,79
+2026-10-22;"Material de consumo";31671,25;31177,66;25344,66
+2026-10-22;"Outros serviços de terceiros - pessoa jurídica";21715,00;6237,89;5899,49
 2026-10-23;"Material de consumo";10477,50;4398,50;1748,50
 2026-10-23;"Outros serviços de terceiros - pessoa jurídica";160,16;0,00;0,00
 2026-10-26;"Diárias - civil";600,00;600,00;600,00
@@ -1212,7 +1212,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-10-29;"Equipamentos e material permanente";1215,91;1215,91;1215,91
 2026-10-29;"Material de consumo";12471,87;9874,87;5860,87
 2026-10-29;"Material, bem ou serviço para distribuição gratuita";935,73;935,73;0,00
-2026-10-29;"Outros serviços de terceiros - pessoa jurídica";18048,54;11230,48;9970,91
+2026-10-29;"Outros serviços de terceiros - pessoa jurídica";18048,54;11622,05;9970,91
 2026-10-29;"Sentenças judiciais";1178,22;1178,22;0,00
 2026-10-29;"Vencimentos e vantagens fixas - pessoal civil";5431,93;5431,93;5431,93
 2026-10-30;"Aposentadorias, reserva remunerada e reformas";23369,40;23369,40;23369,40
@@ -1227,13 +1227,13 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-11-04;"Contribuições";408457,66;222564,33;222564,33
 2026-11-04;"Material de consumo";5,85;5,85;5,85
 2026-11-04;"Outros serviços de terceiros - pessoa jurídica";23298,00;23298,00;23298,00
-2026-11-05;"Material de consumo";26736,02;11726,12;6910,49
+2026-11-05;"Material de consumo";26736,02;11726,12;7316,09
 2026-11-05;"Obras e instalações";54680,00;0,00;0,00
-2026-11-05;"Outros serviços de terceiros - pessoa jurídica";56797,18;46197,23;33601,43
+2026-11-05;"Outros serviços de terceiros - pessoa jurídica";56797,18;46197,23;36101,43
 2026-11-05;"Vencimentos e vantagens fixas - pessoal civil";14858,29;14858,29;14858,29
 2026-11-06;"Equipamentos e material permanente";0,00;0,00;0,00
 2026-11-06;"Material de consumo";5403,63;3758,30;1315,86
-2026-11-06;"Material, bem ou serviço para distribuição gratuita";16087,23;0,00;0,00
+2026-11-06;"Material, bem ou serviço para distribuição gratuita";16087,23;16087,23;0,00
 2026-11-06;"Outros serviços de terceiros - pessoa física";1109,62;1109,62;1109,62
 2026-11-06;"Outros serviços de terceiros - pessoa jurídica";102827,18;18250,00;17365,00
 2026-11-06;"Principal da dívida contratual resgatado";100655,05;100655,05;39099,16
@@ -1246,40 +1246,44 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2026-11-09;"Passagens e despesas com locomoção";273,00;273,00;273,00
 2026-11-09;"Principal da dívida contratual resgatado";68666,66;68666,66;68666,66
 2026-11-09;"Sentenças judiciais";10961,24;10961,24;10961,24
-2026-11-10;"Material de consumo";27255,50;23374,78;4371,78
+2026-11-10;"Material de consumo";27255,50;23374,78;4399,78
 2026-11-10;"Obras e instalações";5561,79;0,00;0,00
 2026-11-10;"Outros auxílios financeiros a pessoas físicas";35000,00;35000,00;25000,00
 2026-11-10;"Outros serviços de terceiros - pessoa física";19292,26;9646,13;9646,13
-2026-11-10;"Outros serviços de terceiros - pessoa jurídica";15015,45;6492,01;4217,14
+2026-11-10;"Outros serviços de terceiros - pessoa jurídica";15015,45;6492,01;4447,14
 2026-11-10;"Subvenções econômicas";40000,00;40000,00;40000,00
-2026-11-10;"Subvenções sociais";90000,00;90000,00;0,00
-2026-11-11;"Contribuições";16000,00;16000,00;0,00
+2026-11-10;"Subvenções sociais";90000,00;90000,00;18000,00
+2026-11-11;"Contribuições";16000,00;16000,00;16000,00
 2026-11-11;"Diárias - civil";1140,00;1140,00;1140,00
-2026-11-11;"Material de consumo";27114,13;25165,56;24204,55
+2026-11-11;"Material de consumo";27114,13;26681,56;24630,56
 2026-11-11;"Obras e instalações";4574,90;0,00;0,00
 2026-11-11;"Obrigações patronais";189,15;189,15;189,15
-2026-11-11;"Outros serviços de terceiros - pessoa jurídica";40214,33;33623,36;3748,56
+2026-11-11;"Outros serviços de terceiros - pessoa jurídica";40214,33;36463,36;24068,56
 2026-11-11;"Passagens e despesas com locomoção";180,00;180,00;180,00
 2026-11-11;"Premiações culturais, artísticas, científicas, desportivas e outras";2800,00;0,00;0,00
 2026-11-11;"Sentenças judiciais";3461,26;3461,26;3461,26
 2026-11-13;"Equipamentos e material permanente";13050,00;0,00;0,00
-2026-11-13;"Material de consumo";74670,47;34336,01;30873,32
+2026-11-13;"Material de consumo";74670,47;35840,44;32775,12
 2026-11-13;"Outros serviços de terceiros - pessoa física";10940,70;10040,70;8040,70
-2026-11-13;"Outros serviços de terceiros - pessoa jurídica";16354,80;6011,20;2971,20
+2026-11-13;"Outros serviços de terceiros - pessoa jurídica";16354,80;7291,20;5251,20
 2026-11-13;"Passagens e despesas com locomoção";196,88;196,88;196,88
 2026-11-13;"Sentenças judiciais";3100,65;3100,65;3100,65
-2026-11-16;"Contribuições";15000,00;15000,00;0,00
+2026-11-16;"Contribuições";15000,00;15000,00;3000,00
 2026-11-16;"Diárias - civil";240,00;240,00;240,00
-2026-11-16;"Material de consumo";4260,37;122,00;0,00
-2026-11-16;"Material, bem ou serviço para distribuição gratuita";2500,51;0,00;0,00
+2026-11-16;"Material de consumo";4260,37;2966,02;122,00
+2026-11-16;"Material, bem ou serviço para distribuição gratuita";2500,51;2500,51;0,00
 2026-11-16;"Obras e instalações";532,34;0,00;0,00
-2026-11-16;"Outros serviços de terceiros - pessoa jurídica";2777,15;567,15;567,15
+2026-11-16;"Outros serviços de terceiros - pessoa jurídica";2777,15;1837,15;567,15
 2026-11-16;"Passagens e despesas com locomoção";790,90;790,90;790,90
 2026-11-16;"Premiações culturais, artísticas, científicas, desportivas e outras";3700,00;3700,00;0,00
 2026-11-16;"Vencimentos e vantagens fixas - pessoal civil";242,09;242,09;242,09
-2026-11-17;"Material de consumo";41233,99;0,00;0,00
+2026-11-17;"Material de consumo";41233,99;1963,83;0,00
 2026-11-17;"Outros serviços de terceiros - pessoa física";1067,42;0,00;0,00
-2026-11-17;"Outros serviços de terceiros - pessoa jurídica";43587,17;13888,54;597,00
-2026-11-17;"Passagens e despesas com locomoção";60,00;60,00;0,00
+2026-11-17;"Outros serviços de terceiros - pessoa jurídica";43587,17;20999,71;6763,45
+2026-11-17;"Passagens e despesas com locomoção";60,00;60,00;60,00
 2026-11-17;"Sentenças judiciais";1295,10;1295,10;1295,10
 2026-11-17;"Vencimentos e vantagens fixas - pessoal civil";291,35;291,35;291,35
+2026-11-18;"Diárias - civil";840,00;840,00;0,00
+2026-11-18;"Material de consumo";16395,34;0,00;0,00
+2026-11-18;"Outros serviços de terceiros - pessoa jurídica";27981,75;179,10;179,10
+2026-11-18;"Passagens e despesas com locomoção";33,00;33,00;0,00

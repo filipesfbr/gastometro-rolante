@@ -328,7 +328,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-03-18;"Material de consumo";55393,56;55393,56;55393,56
 2025-03-18;"Obrigações patronais";1781,89;1781,89;1781,89
 2025-03-18;"Outros serviços de terceiros - pessoa física";5412,61;5412,61;5412,61
-2025-03-18;"Outros serviços de terceiros - pessoa jurídica";25793,17;23843,17;23843,17
+2025-03-18;"Outros serviços de terceiros - pessoa jurídica";23843,17;23843,17;23843,17
 2025-03-18;"Passagens e despesas com locomoção";55,60;55,60;55,60
 2025-03-18;"Vencimentos e vantagens fixas - pessoal civil";31669,13;31669,13;31669,13
 2025-03-19;"Material de consumo";68065,90;68065,90;68065,90
@@ -342,7 +342,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-03-20;"Obras e instalações";2300,00;2300,00;2300,00
 2025-03-20;"Obrigações patronais";222,68;222,68;222,68
 2025-03-20;"Obrigações tributárias e contributivas";2359,84;2359,84;2359,84
-2025-03-20;"Outros serviços de terceiros - pessoa jurídica";71930,15;71710,15;71710,15
+2025-03-20;"Outros serviços de terceiros - pessoa jurídica";71710,15;71710,15;71710,15
 2025-03-20;"Serviços de tecnologia da informação e comunicação - PJ";1080,00;1080,00;1080,00
 2025-03-20;"Vencimentos e vantagens fixas - pessoal civil";4333,40;4333,40;4333,40
 2025-03-21;"Diárias - civil";120,00;120,00;120,00
@@ -472,7 +472,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-04-15;"Material de consumo";53347,96;53347,96;53347,96
 2025-04-15;"Material, bem ou serviço para distribuição gratuita";19194,90;19194,90;19194,90
 2025-04-15;"Obrigações patronais";2148,70;2148,70;2148,70
-2025-04-15;"Outros serviços de terceiros - pessoa jurídica";30408,06;30068,06;30068,06
+2025-04-15;"Outros serviços de terceiros - pessoa jurídica";30068,06;30068,06;30068,06
 2025-04-15;"Sentenças judiciais";604,15;604,15;604,15
 2025-04-15;"Vencimentos e vantagens fixas - pessoal civil";243,26;243,26;243,26
 2025-04-16;"Equipamentos e material permanente";1792251,00;1792251,00;1792251,00
@@ -644,7 +644,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-05-22;"Vencimentos e vantagens fixas - pessoal civil";82121,45;82121,45;82121,45
 2025-05-23;"Diárias - civil";360,00;360,00;360,00
 2025-05-23;"Material de consumo";4653,80;4653,80;4653,80
-2025-05-23;"Material, bem ou serviço para distribuição gratuita";127384,08;127230,41;127230,41
+2025-05-23;"Material, bem ou serviço para distribuição gratuita";127230,41;127230,41;127230,41
 2025-05-23;"Outros serviços de terceiros - pessoa jurídica";4696,00;4696,00;4696,00
 2025-05-23;"Passagens e despesas com locomoção";23,60;23,60;23,60
 2025-05-26;"Diárias - civil";1360,00;1360,00;1360,00
@@ -714,7 +714,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-06-04;"Passagens e despesas com locomoção";25,00;25,00;25,00
 2025-06-04;"Vencimentos e vantagens fixas - pessoal civil";4051,28;4051,28;4051,28
 2025-06-05;"Diárias - civil";210,00;210,00;210,00
-2025-06-05;"Material de consumo";3625,29;3428,11;3428,11
+2025-06-05;"Material de consumo";3428,11;3428,11;3428,11
 2025-06-05;"Obras e instalações";5693,77;5693,77;5693,77
 2025-06-05;"Outros serviços de terceiros - pessoa jurídica";38794,31;38794,31;38794,31
 2025-06-05;"Vencimentos e vantagens fixas - pessoal civil";2617505,72;2617505,72;2617505,72
@@ -891,7 +891,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-07-10;"Material de consumo";32647,90;32647,90;32647,90
 2025-07-10;"Obrigações patronais";745,48;745,48;745,48
 2025-07-10;"Outras despesas variáveis - pessoal civil";84,55;84,55;84,55
-2025-07-10;"Outros serviços de terceiros - pessoa jurídica";33706,16;33326,16;33326,16
+2025-07-10;"Outros serviços de terceiros - pessoa jurídica";33326,16;33326,16;33326,16
 2025-07-10;"Passagens e despesas com locomoção";5197,00;5197,00;5197,00
 2025-07-10;"Premiações culturais, artísticas, científicas, desportivas e outras";3000,00;3000,00;3000,00
 2025-07-10;"Vencimentos e vantagens fixas - pessoal civil";4914,35;4914,35;4914,35
@@ -963,7 +963,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-07-25;"Outros serviços de terceiros - pessoa jurídica";11476,09;11476,09;11476,09
 2025-07-25;"Vencimentos e vantagens fixas - pessoal civil";25406,88;25406,88;25406,88
 2025-07-28;"Diárias - civil";1410,00;1410,00;1410,00
-2025-07-28;"Material de consumo";164335,06;151654,82;151654,82
+2025-07-28;"Material de consumo";151654,82;151654,82;151654,82
 2025-07-28;"Obrigações patronais";298,97;298,97;298,97
 2025-07-28;"Outros serviços de terceiros - pessoa física";901,58;901,58;901,58
 2025-07-28;"Outros serviços de terceiros - pessoa jurídica";36892,45;36892,45;36892,45
@@ -1041,7 +1041,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-08-12;"Material de consumo";5414,76;5414,76;5414,76
 2025-08-12;"Obrigações patronais";1640,20;1640,20;1640,20
 2025-08-12;"Outras despesas variáveis - pessoal civil";434,34;434,34;434,34
-2025-08-12;"Outros serviços de terceiros - pessoa jurídica";14126,00;13626,00;13626,00
+2025-08-12;"Outros serviços de terceiros - pessoa jurídica";13626,00;13626,00;13626,00
 2025-08-12;"Passagens e despesas com locomoção";82,75;82,75;82,75
 2025-08-12;"Vencimentos e vantagens fixas - pessoal civil";19947,64;19947,64;19947,64
 2025-08-13;"Diárias - civil";1020,00;1020,00;1020,00
@@ -1245,7 +1245,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-09-22;"Material de consumo";11779,68;11779,68;11779,68
 2025-09-22;"Obras e instalações";817,30;817,30;817,30
 2025-09-22;"Obrigações patronais";2054,51;2054,51;2054,51
-2025-09-22;"Outros serviços de terceiros - pessoa jurídica";27462,88;27272,88;27272,88
+2025-09-22;"Outros serviços de terceiros - pessoa jurídica";27272,88;27272,88;27272,88
 2025-09-22;"Passagens e despesas com locomoção";43,40;43,40;43,40
 2025-09-22;"Premiações culturais, artísticas, científicas, desportivas e outras";320,00;320,00;320,00
 2025-09-22;"Sentenças judiciais";294,47;294,47;294,47
@@ -1260,8 +1260,8 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-09-24;"Outros serviços de terceiros - pessoa jurídica";8266,19;8266,19;8266,19
 2025-09-24;"Vencimentos e vantagens fixas - pessoal civil";5605,89;5605,89;5605,89
 2025-09-25;"Diárias - civil";120,00;120,00;120,00
-2025-09-25;"Material de consumo";54069,62;51429,62;51429,62
-2025-09-25;"Material, bem ou serviço para distribuição gratuita";17693,46;16012,86;16012,86
+2025-09-25;"Material de consumo";51429,62;51429,62;51429,62
+2025-09-25;"Material, bem ou serviço para distribuição gratuita";16012,86;16012,86;16012,86
 2025-09-25;"Outros serviços de terceiros - pessoa jurídica";8307,00;8307,00;8307,00
 2025-09-25;"Passagens e despesas com locomoção";204,51;204,51;204,51
 2025-09-26;"Contribuições";515000,00;515000,00;515000,00
@@ -1282,7 +1282,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-09-29;"Obrigações tributárias e contributivas";251,72;251,72;251,72
 2025-09-29;"Outras despesas variáveis - pessoal civil";71099,90;71099,90;71099,90
 2025-09-29;"Outros serviços de terceiros - pessoa física";100548,78;100548,78;100548,78
-2025-09-29;"Outros serviços de terceiros - pessoa jurídica";29380,00;26815,00;26815,00
+2025-09-29;"Outros serviços de terceiros - pessoa jurídica";26815,00;26815,00;26815,00
 2025-09-29;"Passagens e despesas com locomoção";3529,31;3529,31;3529,31
 2025-09-29;"Pensões";25977,64;25977,64;25977,64
 2025-09-29;"Ressarcimento de Despesas de Pessoal Requisitado";70000,00;70000,00;70000,00
@@ -1312,14 +1312,14 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-10-03;"Diárias - civil";1340,00;1340,00;1340,00
 2025-10-03;"Equipamentos e material permanente";1098,00;1098,00;1098,00
 2025-10-03;"Indenizações e restituições";9309,42;9309,42;9309,42
-2025-10-03;"Material de consumo";188928,04;173099,75;173099,75
+2025-10-03;"Material de consumo";173099,75;173099,75;173099,75
 2025-10-03;"Material, bem ou serviço para distribuição gratuita";1015,13;1015,13;1015,13
 2025-10-03;"Outros auxílios financeiros a pessoas físicas";8800,00;8800,00;8800,00
 2025-10-03;"Outros serviços de terceiros - pessoa física";1925,84;1925,84;1925,84
 2025-10-03;"Outros serviços de terceiros - pessoa jurídica";15818,35;15818,35;15818,35
 2025-10-06;"Diárias - civil";60,00;60,00;60,00
 2025-10-06;"Material de consumo";50107,12;50107,12;50107,12
-2025-10-06;"Outros serviços de terceiros - pessoa jurídica";36292,16;34827,82;34827,82
+2025-10-06;"Outros serviços de terceiros - pessoa jurídica";35812,16;34827,82;34827,82
 2025-10-06;"Passagens e despesas com locomoção";151,00;151,00;151,00
 2025-10-06;"Sentenças judiciais";1290,36;1290,36;1290,36
 2025-10-06;"Vencimentos e vantagens fixas - pessoal civil";299836,65;299836,65;299836,65
@@ -1382,8 +1382,8 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-10-16;"Vencimentos e vantagens fixas - pessoal civil";300,00;300,00;300,00
 2025-10-17;"Diárias - civil";1460,00;1460,00;1460,00
 2025-10-17;"Equipamentos e material permanente";59070,00;59070,00;59070,00
-2025-10-17;"Material de consumo";6856,43;4176,43;4176,43
-2025-10-17;"Outros serviços de terceiros - pessoa jurídica";273773,13;273523,13;273523,13
+2025-10-17;"Material de consumo";4176,43;4176,43;4176,43
+2025-10-17;"Outros serviços de terceiros - pessoa jurídica";273523,13;273523,13;273523,13
 2025-10-20;"Contribuições";18000,00;18000,00;18000,00
 2025-10-20;"Diárias - civil";600,00;600,00;600,00
 2025-10-20;"Equipamentos e material permanente";0,00;0,00;0,00
@@ -1438,7 +1438,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-10-29;"Equipamentos e material permanente";12740,00;12740,00;12740,00
 2025-10-29;"Material de consumo";5561,87;5561,87;5561,87
 2025-10-29;"Obras e instalações";835792,05;822537,68;822537,68
-2025-10-29;"Outros serviços de terceiros - pessoa jurídica";25666,96;25021,96;25021,96
+2025-10-29;"Outros serviços de terceiros - pessoa jurídica";25021,96;25021,96;25021,96
 2025-10-30;"Aposentadorias, reserva remunerada e reformas";17235,33;17235,33;17235,33
 2025-10-30;"Diárias - civil";4710,00;4710,00;4710,00
 2025-10-30;"Material de consumo";5921,82;5921,82;5921,82
@@ -1497,7 +1497,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-11-11;"Contribuições";6000,00;6000,00;6000,00
 2025-11-11;"Juros sobre a dívida por contrato";455327,75;455327,75;455327,75
 2025-11-11;"Material de consumo";102909,15;102909,15;102909,15
-2025-11-11;"Material, bem ou serviço para distribuição gratuita";45432,69;45005,36;45005,36
+2025-11-11;"Material, bem ou serviço para distribuição gratuita";45005,36;45005,36;45005,36
 2025-11-11;"Obrigações patronais";569,22;569,22;569,22
 2025-11-11;"Outros serviços de terceiros - pessoa jurídica";3641,23;3641,23;3641,23
 2025-11-11;"Principal da dívida contratual resgatado";226802,20;226802,20;226802,20
@@ -1515,7 +1515,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-11-13;"Material de consumo";5212,75;5212,75;5212,75
 2025-11-13;"Vencimentos e vantagens fixas - pessoal civil";1000,00;1000,00;1000,00
 2025-11-14;"Diárias - civil";960,00;960,00;960,00
-2025-11-14;"Material de consumo";14092,66;13959,66;13959,66
+2025-11-14;"Material de consumo";13959,66;13959,66;13959,66
 2025-11-14;"Material, bem ou serviço para distribuição gratuita";7419,74;7419,74;7419,74
 2025-11-14;"Obrigações patronais";138,80;138,80;138,80
 2025-11-14;"Outros serviços de terceiros - pessoa física";271,47;271,47;271,47
@@ -1523,10 +1523,10 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-11-14;"Premiações culturais, artísticas, científicas, desportivas e outras";2800,00;2800,00;2800,00
 2025-11-14;"Vencimentos e vantagens fixas - pessoal civil";995,30;995,30;995,30
 2025-11-17;"Equipamentos e material permanente";288102,41;266415,71;266415,71
-2025-11-17;"Material de consumo";10138,20;7978,20;7978,20
+2025-11-17;"Material de consumo";7978,20;7978,20;7978,20
 2025-11-17;"Material, bem ou serviço para distribuição gratuita";855,60;855,60;855,60
 2025-11-17;"Outros serviços de terceiros - pessoa física";1949,09;1949,09;1949,09
-2025-11-17;"Outros serviços de terceiros - pessoa jurídica";5010,80;4610,80;4610,80
+2025-11-17;"Outros serviços de terceiros - pessoa jurídica";4610,80;4610,80;4610,80
 2025-11-18;"Diárias - civil";1320,00;1320,00;1320,00
 2025-11-18;"Material de consumo";515,52;515,52;515,52
 2025-11-18;"Obrigações patronais";782,03;782,03;782,03
@@ -1536,7 +1536,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-11-19;"Contribuições";10000,00;10000,00;10000,00
 2025-11-19;"Diárias - civil";360,00;360,00;360,00
 2025-11-19;"Equipamentos e material permanente";1072298,00;1072298,00;1072298,00
-2025-11-19;"Material de consumo";24548,37;24167,47;24167,47
+2025-11-19;"Material de consumo";24167,47;24167,47;24167,47
 2025-11-19;"Obrigações patronais";2145,71;2145,71;2145,71
 2025-11-19;"Outros serviços de terceiros - pessoa jurídica";45433,22;45433,22;45433,22
 2025-11-19;"Passagens e despesas com locomoção";591,34;591,34;591,34
@@ -1587,7 +1587,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-12-01;"Outros serviços de terceiros - pessoa jurídica";9801,00;9801,00;9801,00
 2025-12-02;"Diárias - civil";1320,00;1320,00;1320,00
 2025-12-02;"Equipamentos e material permanente";70564,18;70564,18;70564,18
-2025-12-02;"Material de consumo";3867,80;3169,80;3169,80
+2025-12-02;"Material de consumo";3169,80;3169,80;3169,80
 2025-12-02;"Material, bem ou serviço para distribuição gratuita";3949,40;3949,40;3949,40
 2025-12-02;"Obras e instalações";396166,40;396166,40;396166,40
 2025-12-02;"Obrigações patronais";741,93;741,93;741,93
@@ -1608,7 +1608,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-12-04;"Vencimentos e vantagens fixas - pessoal civil";12000,00;12000,00;12000,00
 2025-12-05;"Equipamentos e material permanente";69435,58;69435,58;69435,58
 2025-12-05;"Material de consumo";13375,61;13375,61;13375,61
-2025-12-05;"Material, bem ou serviço para distribuição gratuita";750,00;0,00;0,00
+2025-12-05;"Material, bem ou serviço para distribuição gratuita";0,00;0,00;0,00
 2025-12-05;"Outros serviços de terceiros - pessoa jurídica";145544,06;145544,06;145544,06
 2025-12-05;"Passagens e despesas com locomoção";197,83;197,83;197,83
 2025-12-08;"Diárias - civil";120,00;120,00;120,00
@@ -1625,7 +1625,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-12-09;"Obrigações tributárias e contributivas";27211,81;27211,81;27211,81
 2025-12-09;"Outros serviços de terceiros - pessoa jurídica";198271,77;198271,77;198271,77
 2025-12-09;"Principal da dívida contratual resgatado";32105,27;32105,27;32105,27
-2025-12-10;"Material de consumo";20609,72;20469,82;20469,82
+2025-12-10;"Material de consumo";20469,82;20469,82;20469,82
 2025-12-10;"Material, bem ou serviço para distribuição gratuita";1489,35;1489,35;1489,35
 2025-12-10;"Obrigações patronais";107,63;107,63;107,63
 2025-12-10;"Outros serviços de terceiros - pessoa física";2599,90;2599,90;2599,90
@@ -1645,7 +1645,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-12-11;"Ressarcimento de Despesas de Pessoal Requisitado";3779,16;3779,16;3779,16
 2025-12-11;"Vencimentos e vantagens fixas - pessoal civil";2203620,10;2203620,10;2203620,10
 2025-12-12;"Equipamentos e material permanente";28150,00;28150,00;28150,00
-2025-12-12;"Material de consumo";31199,01;30671,04;30671,04
+2025-12-12;"Material de consumo";30671,04;30671,04;30671,04
 2025-12-12;"Material, bem ou serviço para distribuição gratuita";145,00;145,00;145,00
 2025-12-12;"Obras e instalações";23104,22;23104,22;23104,22
 2025-12-12;"Outros serviços de terceiros - pessoa jurídica";61820,57;61820,57;61820,57

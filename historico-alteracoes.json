@@ -547,5 +547,122 @@
     "campo": "e",
     "antes": 342546093,
     "depois": 342449677
+  },
+  {
+    "detectado_em": "2026-11-18",
+    "ano": 2025,
+    "mes": 3,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 87031482,
+    "depois": 86814482
+  },
+  {
+    "detectado_em": "2026-11-18",
+    "ano": 2025,
+    "mes": 4,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 361737145,
+    "depois": 361703145
+  },
+  {
+    "detectado_em": "2026-11-18",
+    "ano": 2025,
+    "mes": 5,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 86680825,
+    "depois": 86665458
+  },
+  {
+    "detectado_em": "2026-11-18",
+    "ano": 2025,
+    "mes": 6,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 638478947,
+    "depois": 638459229
+  },
+  {
+    "detectado_em": "2026-11-18",
+    "ano": 2025,
+    "mes": 7,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 92227809,
+    "depois": 90921785
+  },
+  {
+    "detectado_em": "2026-11-18",
+    "ano": 2025,
+    "mes": 8,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 68879666,
+    "depois": 68829666
+  },
+  {
+    "detectado_em": "2026-11-18",
+    "ano": 2025,
+    "mes": 9,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 112514749,
+    "depois": 111807189
+  },
+  {
+    "detectado_em": "2026-11-18",
+    "ano": 2025,
+    "mes": 10,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 293020993,
+    "depois": 291032664
+  },
+  {
+    "detectado_em": "2026-11-18",
+    "ano": 2025,
+    "mes": 11,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 136941829,
+    "depois": 136591706
+  },
+  {
+    "detectado_em": "2026-11-18",
+    "ano": 2025,
+    "mes": 12,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 170595934,
+    "depois": 170384347
+  },
+  {
+    "detectado_em": "2026-11-18",
+    "ano": 2026,
+    "mes": 1,
+    "area": "Urbanismo",
+    "campo": "e",
+    "antes": 1107886535,
+    "depois": 1093486535
+  },
+  {
+    "detectado_em": "2026-11-18",
+    "ano": 2026,
+    "mes": 8,
+    "area": "Educação",
+    "campo": "e",
+    "antes": 377165904,
+    "depois": 373908692
+  },
+  {
+    "detectado_em": "2026-11-18",
+    "ano": 2026,
+    "mes": 9,
+    "area": "Educação",
+    "campo": "e",
+    "antes": 412679688,
+    "depois": 412442088
   }
 ]
