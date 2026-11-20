@@ -157,7 +157,7 @@ curl -s -X POST "${A}Usuario/Despesas/Listar" --data-urlencode "token=$T" --data
 ### Cuidados herdados do Impostômetro (`coletor/src/api.ts`)
 
 - **1 chamada a cada 2 s.** Acima disso o portal responde 429/403 com reCAPTCHA. Nesses casos, esperar 30 s, 60 s e 90 s.
-- **Nunca paginar**: 1 mês por chamada, `length=20000`, e conferir `data.length === recordsTotal`.
+- **Paginar por `start`**: o portal corta em 500 linhas por chamada (visto em 20/11/2026), então 1 mês por vez, `start` = linhas já lidas, até `recordsTotal`. Duplicata/salto é pego pelo totalizador (R2).
 - Parâmetro vazio vai como string vazia, nunca como o texto `null` (no Receitas, `null` zera os totais).
 - User-Agent identificável: `GastometroRolante/1.0 (+https://github.com/filipesfbr/gastometro-rolante)`.
 - Envelope: `status` pode ser `"success"` ou `true`. Os dois valem; qualquer outro valor é erro.

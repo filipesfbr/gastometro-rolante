@@ -152,21 +152,36 @@ describe('api', () => {
     expect(corpo.get('length')).toBe('20000');
   });
 
-  it('data.length != recordsTotal em todas as tentativas → erro', async () => {
-    const fetch = vi.fn().mockImplementation(async () => resposta(200, { status: true, recordsTotal: 3, data: [linhas[0]] }));
+  it('página vazia antes de recordsTotal em todas as tentativas → erro', async () => {
+    const fetch = vi.fn().mockImplementation(async (_u, init) => {
+      const primeira = new URLSearchParams(init.body as string).get('start') === '0';
+      return resposta(200, { status: true, recordsTotal: 3, data: primeira ? [linhas[0]] : [] });
+    });
     const api = criarApi(fonte, { fetch, esperar: async () => {} });
     await expect(api.listarDespesas(2026, 1, 4)).rejects.toThrow('vieram 1 de 3');
-    expect(fetch).toHaveBeenCalledTimes(3);
+    expect(fetch).toHaveBeenCalledTimes(6);
+  });
+
+  it('portal limita a página → pagina por start até recordsTotal', async () => {
+    const fetch = vi
+      .fn()
+      .mockResolvedValueOnce(resposta(200, { status: true, recordsTotal: 3, data: [linhas[0], linhas[0]] }))
+      .mockResolvedValueOnce(resposta(200, { status: true, recordsTotal: 3, data: [linhas[0]] }));
+    const api = criarApi(fonte, { fetch, esperar: async () => {} });
+    expect(await api.listarDespesas(2026, 1, 4)).toHaveLength(3);
+    const starts = fetch.mock.calls.map((c) => new URLSearchParams(c[1].body as string).get('start'));
+    expect(starts).toEqual(['0', '2']);
   });
 
   it('resposta truncada → pede de novo e aceita a completa', async () => {
     const fetch = vi
       .fn()
       .mockResolvedValueOnce(resposta(200, { status: true, recordsTotal: 2, data: [linhas[0]] }))
+      .mockResolvedValueOnce(resposta(200, { status: true, recordsTotal: 2, data: [] }))
       .mockResolvedValueOnce(resposta(200, { status: true, recordsTotal: 2, data: [linhas[0], linhas[0]] }));
     const api = criarApi(fonte, { fetch, esperar: async () => {} });
     expect(await api.listarDespesas(2026, 1, 4)).toHaveLength(2);
-    expect(fetch).toHaveBeenCalledTimes(2);
+    expect(fetch).toHaveBeenCalledTimes(3);
   });
 
   it('códigos: trim e nome repetido fica de fora', async () => {

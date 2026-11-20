@@ -94,19 +94,29 @@ export function criarApi(fonte: Fonte, op: Opcoes = {}) {
     });
 
   return {
-    /** Empenhos de um mês inteiro em uma chamada: paginar repete e pula linhas. */
+    /**
+     * Empenhos de um mês. O portal limita a resposta a 500 linhas (mesmo com `length=20000`),
+     * então pagina por `start`; duplicata ou salto de página é pego pelo totalizador (R2).
+     */
     async listarDespesas(ano: number, mes: number, tipo: number): Promise<Linha[]> {
       for (let tentativa = 1; ; tentativa++) {
-        const r = await chamar<Linha[] | null>(
-          'Usuario/Despesas/Listar',
-          { token: fonte.token, jsonfiltros: filtros(tipo, ano, mes), draw: 1, start: 0, length: 20000 },
-          'POST',
-        );
-        const linhas: Linha[] = r.data ?? [];
-        if (linhas.length === r.recordsTotal) return linhas;
-        // O portal às vezes responde 200 com só parte das linhas (500 de 1184): pedir de novo.
+        const linhas: Linha[] = [];
+        let total: number;
+        do {
+          const r = await chamar<Linha[] | null>(
+            'Usuario/Despesas/Listar',
+            { token: fonte.token, jsonfiltros: filtros(tipo, ano, mes), draw: 1, start: linhas.length, length: 20000 },
+            'POST',
+          );
+          total = r.recordsTotal ?? 0;
+          const pagina = r.data ?? [];
+          if (!pagina.length) break;
+          linhas.push(...pagina);
+        } while (linhas.length < total);
+        if (linhas.length === total) return linhas;
+        // O portal às vezes responde 200 com só parte das linhas: pedir de novo.
         if (tentativa >= TENTATIVAS) {
-          throw new Error(`Listar ${ano}/${mes} tipo ${tipo}: vieram ${linhas.length} de ${r.recordsTotal} linhas`);
+          throw new Error(`Listar ${ano}/${mes} tipo ${tipo}: vieram ${linhas.length} de ${total} linhas`);
         }
         await esperar(5000 * tentativa);
       }
