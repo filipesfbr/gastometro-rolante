@@ -14,7 +14,8 @@ que é o modelo de estrutura. Visão geral, comandos e dados: `README.md`. Plano
 - Valores sempre em **centavos inteiros**; reais só na hora de formatar (`site/src/lib/format.ts`).
 - O mês é o **mês do empenho**; pago e liquidado de meses passados crescem todo dia. Saldo a pagar é
   sempre `empenhado − pago`, nunca o campo `valorAPagar` (vem `0.0` em alguns tipos).
-- API do portal: **nunca paginar** `Listar` (1 mês por chamada, `length=20000`), 1 chamada a cada 2 s,
+- API do portal: `Listar` devolve no máximo 500 linhas por chamada (visto em 20/11/2026): 1 mês por
+  vez, paginar por `start` até `recordsTotal`, 1 chamada a cada 2 s,
   parâmetro vazio é string vazia (nunca o texto `null`).
 - `jsonfiltros`: `mes` é **array de inteiros** (`"mes":[9]`); os tipos 5 (órgão) e 7 (vínculo) exigem
   `"orgao":"0"` ou `"vinculo":"0"` e `"dinamic":"0"`, senão a área vem vazia. O tipo 8 (subfunção) soma
