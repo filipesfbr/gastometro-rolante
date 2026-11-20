@@ -101,7 +101,7 @@ export function criarApi(fonte: Fonte, op: Opcoes = {}) {
     async listarDespesas(ano: number, mes: number, tipo: number): Promise<Linha[]> {
       for (let tentativa = 1; ; tentativa++) {
         const linhas: Linha[] = [];
-        let total = 0;
+        let total: number;
         do {
           const r = await chamar<Linha[] | null>(
             'Usuario/Despesas/Listar',
