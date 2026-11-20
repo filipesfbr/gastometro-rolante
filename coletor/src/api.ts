@@ -96,16 +96,20 @@ export function criarApi(fonte: Fonte, op: Opcoes = {}) {
   return {
     /** Empenhos de um mês inteiro em uma chamada: paginar repete e pula linhas. */
     async listarDespesas(ano: number, mes: number, tipo: number): Promise<Linha[]> {
-      const r = await chamar<Linha[] | null>(
-        'Usuario/Despesas/Listar',
-        { token: fonte.token, jsonfiltros: filtros(tipo, ano, mes), draw: 1, start: 0, length: 20000 },
-        'POST',
-      );
-      const linhas: Linha[] = r.data ?? [];
-      if (linhas.length !== r.recordsTotal) {
-        throw new Error(`Listar ${ano}/${mes} tipo ${tipo}: vieram ${linhas.length} de ${r.recordsTotal} linhas`);
+      for (let tentativa = 1; ; tentativa++) {
+        const r = await chamar<Linha[] | null>(
+          'Usuario/Despesas/Listar',
+          { token: fonte.token, jsonfiltros: filtros(tipo, ano, mes), draw: 1, start: 0, length: 20000 },
+          'POST',
+        );
+        const linhas: Linha[] = r.data ?? [];
+        if (linhas.length === r.recordsTotal) return linhas;
+        // O portal às vezes responde 200 com só parte das linhas (500 de 1184): pedir de novo.
+        if (tentativa >= TENTATIVAS) {
+          throw new Error(`Listar ${ano}/${mes} tipo ${tipo}: vieram ${linhas.length} de ${r.recordsTotal} linhas`);
+        }
+        await esperar(5000 * tentativa);
       }
-      return linhas;
     },
 
     /** Os cartões do portal (visão "todas", tipo 10), em centavos. Sem `mes` = ano inteiro. */
