@@ -664,5 +664,23 @@
     "campo": "e",
     "antes": 412679688,
     "depois": 412442088
+  },
+  {
+    "detectado_em": "2026-11-20",
+    "ano": 2026,
+    "mes": 9,
+    "area": "Educação",
+    "campo": "e",
+    "antes": 412442088,
+    "depois": 410167631
+  },
+  {
+    "detectado_em": "2026-11-20",
+    "ano": 2026,
+    "mes": 10,
+    "area": "Transporte",
+    "campo": "e",
+    "antes": 28196577,
+    "depois": 27936577
   }
 ]
