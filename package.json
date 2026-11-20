@@ -1,6 +1,6 @@
 {
   "name": "gastometro-rolante",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": true,
   "type": "module",
   "description": "Quanto a Prefeitura de Rolante-RS gasta e em quê, com dados do Portal da Transparência. Site independente.",
@@ -21,9 +21,9 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@types/node": "^26.6.5",
-    "eslint": "^10.13.0",
-    "globals": "^17.13.0",
+    "@types/node": "^26.6.6",
+    "eslint": "^10.14.0",
+    "globals": "^17.14.0",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.72.1",
     "vitest": "^5.0.5"

@@ -29,8 +29,8 @@ concurrency:
 jobs:
   coleta:
     runs-on: ubuntu-latest
-    # ~115 chamadas com 2 s de intervalo: 15–20 min numa coleta normal.
-    timeout-minutes: 30
+    # ~115 chamadas com 2 s de intervalo: 15–20 min numa coleta normal; até 3 tentativas.
+    timeout-minutes: 75
 
     steps:
       - uses: actions/checkout@v7
@@ -55,8 +55,16 @@ jobs:
             git worktree add --orphan -b data data
           fi
 
+      # Falha passageira do portal (resposta truncada, total do ano que mudou durante a
+      # coleta): refaz a coleta inteira, até 3 vezes. Nada é gravado em `data` quando falha (R2).
       - name: Coletar
-        run: npm run coletar
+        run: |
+          for tentativa in 1 2 3; do
+            npm run coletar && exit 0
+            echo "::warning::Coleta falhou (tentativa $tentativa de 3)"
+            sleep 120
+          done
+          exit 1
 
       # R8: nenhum dado de credor ou do empenho individual pode chegar ao repositório.
       # Lista de permitidos, não de proibidos: toda linha de despesa tem só estas 5 chaves.
