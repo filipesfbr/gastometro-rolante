@@ -682,5 +682,23 @@
     "campo": "e",
     "antes": 28196577,
     "depois": 27936577
+  },
+  {
+    "detectado_em": "2026-11-23",
+    "ano": 2026,
+    "mes": 9,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 255247955,
+    "depois": 255216412
+  },
+  {
+    "detectado_em": "2026-11-23",
+    "ano": 2026,
+    "mes": 10,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 71185654,
+    "depois": 71156490
   }
 ]
