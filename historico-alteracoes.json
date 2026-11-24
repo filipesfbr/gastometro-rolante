@@ -700,5 +700,122 @@
     "campo": "e",
     "antes": 71185654,
     "depois": 71156490
+  },
+  {
+    "detectado_em": "2026-11-24",
+    "ano": 2025,
+    "mes": 1,
+    "area": "Educação",
+    "campo": "e",
+    "antes": 246131864,
+    "depois": 245935749
+  },
+  {
+    "detectado_em": "2026-11-24",
+    "ano": 2025,
+    "mes": 3,
+    "area": "Administração",
+    "campo": "e",
+    "antes": 111622294,
+    "depois": 111566032
+  },
+  {
+    "detectado_em": "2026-11-24",
+    "ano": 2025,
+    "mes": 4,
+    "area": "Educação",
+    "campo": "e",
+    "antes": 355097062,
+    "depois": 355090858
+  },
+  {
+    "detectado_em": "2026-11-24",
+    "ano": 2025,
+    "mes": 8,
+    "area": "Transporte",
+    "campo": "e",
+    "antes": 30559408,
+    "depois": 29959408
+  },
+  {
+    "detectado_em": "2026-11-24",
+    "ano": 2025,
+    "mes": 10,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 291032664,
+    "depois": 290934230
+  },
+  {
+    "detectado_em": "2026-11-24",
+    "ano": 2025,
+    "mes": 12,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 170384347,
+    "depois": 170363758
+  },
+  {
+    "detectado_em": "2026-11-24",
+    "ano": 2026,
+    "mes": 1,
+    "area": "Administração",
+    "campo": "e",
+    "antes": 218691602,
+    "depois": 217945034
+  },
+  {
+    "detectado_em": "2026-11-24",
+    "ano": 2026,
+    "mes": 6,
+    "area": "Administração",
+    "campo": "e",
+    "antes": 102264176,
+    "depois": 102257546
+  },
+  {
+    "detectado_em": "2026-11-24",
+    "ano": 2026,
+    "mes": 7,
+    "area": "Administração",
+    "campo": "e",
+    "antes": 127960545,
+    "depois": 127810545
+  },
+  {
+    "detectado_em": "2026-11-24",
+    "ano": 2026,
+    "mes": 8,
+    "area": "Administração",
+    "campo": "e",
+    "antes": 89330040,
+    "depois": 89327478
+  },
+  {
+    "detectado_em": "2026-11-24",
+    "ano": 2026,
+    "mes": 10,
+    "area": "Educação",
+    "campo": "e",
+    "antes": 342449677,
+    "depois": 341549677
+  },
+  {
+    "detectado_em": "2026-11-24",
+    "ano": 2026,
+    "mes": 10,
+    "area": "Transporte",
+    "campo": "e",
+    "antes": 27936577,
+    "depois": 27803517
+  },
+  {
+    "detectado_em": "2026-11-24",
+    "ano": 2026,
+    "mes": 10,
+    "area": "Urbanismo",
+    "campo": "e",
+    "antes": 772090484,
+    "depois": 771841197
   }
 ]

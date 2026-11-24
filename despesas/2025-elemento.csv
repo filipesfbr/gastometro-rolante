@@ -6,7 +6,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-01-02;"Obrigações patronais";1561,62;1561,62;1561,62
 2025-01-02;"Outras despesas variáveis - pessoal civil";137,41;137,41;137,41
 2025-01-02;"Outros serviços de terceiros - pessoa física";9523,62;9523,62;9523,62
-2025-01-02;"Outros serviços de terceiros - pessoa jurídica";2160615,30;2160615,30;2158654,15
+2025-01-02;"Outros serviços de terceiros - pessoa jurídica";2158654,15;2158654,15;2158654,15
 2025-01-02;"Serviços de tecnologia da informação e comunicação - PJ";9534,84;9534,84;9534,84
 2025-01-02;"Vencimentos e vantagens fixas - pessoal civil";1928196,73;1928196,73;1928196,73
 2025-01-03;"Diárias - civil";150,00;150,00;150,00
@@ -335,7 +335,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-03-19;"Obrigações patronais";207,59;207,59;207,59
 2025-03-19;"Outros serviços de terceiros - pessoa jurídica";108792,88;108792,88;108792,88
 2025-03-19;"Passagens e despesas com locomoção";38,00;38,00;38,00
-2025-03-19;"Serviços de tecnologia da informação e comunicação - PJ";301880,11;301317,49;301317,49
+2025-03-19;"Serviços de tecnologia da informação e comunicação - PJ";301317,49;301317,49;301317,49
 2025-03-19;"Vencimentos e vantagens fixas - pessoal civil";4646,55;4646,55;4646,55
 2025-03-20;"Material de consumo";3271,00;3271,00;3271,00
 2025-03-20;"Material, bem ou serviço para distribuição gratuita";0,00;0,00;0,00
@@ -539,7 +539,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-04-30;"Obrigações patronais";471503,94;471503,94;471503,94
 2025-04-30;"Obrigações tributárias e contributivas";503,46;503,46;503,46
 2025-04-30;"Outras despesas variáveis - pessoal civil";51921,54;51921,54;51921,54
-2025-04-30;"Outros serviços de terceiros - pessoa física";136326,61;136326,61;136264,57
+2025-04-30;"Outros serviços de terceiros - pessoa física";136264,57;136264,57;136264,57
 2025-04-30;"Outros serviços de terceiros - pessoa jurídica";59952,35;59952,35;59952,35
 2025-04-30;"Passagens e despesas com locomoção";16,00;16,00;16,00
 2025-04-30;"Pensões";25977,64;25977,64;25977,64
@@ -1097,7 +1097,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-08-22;"Material, bem ou serviço para distribuição gratuita";1077,80;1077,80;1077,80
 2025-08-22;"Obras e instalações";909,50;909,50;909,50
 2025-08-22;"Obrigações patronais";1148,11;1148,11;1148,11
-2025-08-22;"Outros serviços de terceiros - pessoa física";78266,65;78266,65;72266,65
+2025-08-22;"Outros serviços de terceiros - pessoa física";72266,65;72266,65;72266,65
 2025-08-22;"Outros serviços de terceiros - pessoa jurídica";2084,39;2084,39;2084,39
 2025-08-22;"Vencimentos e vantagens fixas - pessoal civil";8972,61;8972,61;8972,61
 2025-08-25;"Material de consumo";11343,44;11343,44;11343,44
@@ -1319,7 +1319,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-10-03;"Outros serviços de terceiros - pessoa jurídica";15818,35;15818,35;15818,35
 2025-10-06;"Diárias - civil";60,00;60,00;60,00
 2025-10-06;"Material de consumo";50107,12;50107,12;50107,12
-2025-10-06;"Outros serviços de terceiros - pessoa jurídica";35812,16;34827,82;34827,82
+2025-10-06;"Outros serviços de terceiros - pessoa jurídica";34827,82;34827,82;34827,82
 2025-10-06;"Passagens e despesas com locomoção";151,00;151,00;151,00
 2025-10-06;"Sentenças judiciais";1290,36;1290,36;1290,36
 2025-10-06;"Vencimentos e vantagens fixas - pessoal civil";299836,65;299836,65;299836,65
@@ -1675,7 +1675,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-12-18;"Obrigações patronais";152,01;152,01;152,01
 2025-12-18;"Obrigações tributárias e contributivas";10769,42;10769,42;10769,42
 2025-12-18;"Outros serviços de terceiros - pessoa física";44707,45;44707,45;44707,45
-2025-12-18;"Outros serviços de terceiros - pessoa jurídica";12684,50;12684,50;12478,61
+2025-12-18;"Outros serviços de terceiros - pessoa jurídica";12478,61;12478,61;12478,61
 2025-12-18;"Subvenções econômicas";30000,00;30000,00;30000,00
 2025-12-18;"Vencimentos e vantagens fixas - pessoal civil";1090,04;1090,04;1090,04
 2025-12-19;"Obrigações patronais";334,55;334,55;334,55

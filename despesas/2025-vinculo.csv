@@ -6,7 +6,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-01-02;"Ministério da Justiça e Segurança Pública";0,00;0,00;0,00
 2025-01-02;"Outros Recursos não Vinculados";755146,97;755146,97;755146,97
 2025-01-02;"PRIMEIRA INFANCIA MELHOR - PIM";298999,50;298999,50;298999,50
-2025-01-02;"Recursos não Vinculados de Impostos";1235758,65;1235758,65;1233797,50
+2025-01-02;"Recursos não Vinculados de Impostos";1233797,50;1233797,50;1233797,50
 2025-01-03;"Outros Recursos não Vinculados";50,00;50,00;50,00
 2025-01-03;"Recursos não Vinculados de Impostos";100,00;100,00;100,00
 2025-01-07;"Outros Recursos não Vinculados";35736,90;35736,90;35736,90
@@ -205,7 +205,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-03-19;"Bloco de Manutenção das Ações e Serviços Públicos de Saúde - Emendas Individuais";64092,12;64092,12;64092,12
 2025-03-19;"FUNDEB 30%";22099,02;22099,02;22099,02
 2025-03-19;"IGD-BF";2460,00;2460,00;2460,00
-2025-03-19;"Outros Recursos não Vinculados";330066,67;329504,05;329504,05
+2025-03-19;"Outros Recursos não Vinculados";329504,05;329504,05;329504,05
 2025-03-19;"PRIMEIRA INFANCIA MELHOR - PIM";4854,14;4854,14;4854,14
 2025-03-19;"Recursos não Vinculados de Impostos";60059,08;60059,08;60059,08
 2025-03-20;"Bloco de Manutenção das Ações e Serviços Públicos de Saúde - Emendas Individuais";31009,26;31009,26;31009,26
@@ -334,7 +334,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-04-30;"OASF";0,00;0,00;0,00
 2025-04-30;"Outros Recursos não Vinculados";1487353,39;1487353,39;1487353,39
 2025-04-30;"PRIMEIRA INFANCIA MELHOR - PIM";31252,51;31252,51;31252,51
-2025-04-30;"Recursos não Vinculados de Impostos";423511,34;423511,34;423449,30
+2025-04-30;"Recursos não Vinculados de Impostos";423449,30;423449,30;423449,30
 2025-04-30;"Transferências do FUNDEB -  VAAT";0,00;0,00;0,00
 2025-05-02;"Bloco de Manutenção das Ações e Serviços Públicos de Saúde - Emendas Individuais";967,21;967,21;967,21
 2025-05-02;"FUNDEB 30%";49350,00;49350,00;49350,00
@@ -727,7 +727,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-08-21;"Recursos não Vinculados de Impostos";5986,00;5986,00;5986,00
 2025-08-22;"COSIP - Iluminação Publica";2021,63;2021,63;2021,63
 2025-08-22;"FUNDEB 30%";3112,66;3112,66;3112,66
-2025-08-22;"Outros Recursos não Vinculados";99702,50;99702,50;93702,50
+2025-08-22;"Outros Recursos não Vinculados";93702,50;93702,50;93702,50
 2025-08-22;"Recursos não Vinculados de Impostos";15097,17;15097,17;15097,17
 2025-08-25;"Bloco de Manutenção das Ações e Serviços Públicos de Saúde - Emendas Individuais";5700,00;5700,00;5700,00
 2025-08-25;"IGD-BF";5222,48;5222,48;5222,48
@@ -876,7 +876,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-10-03;"Outros Recursos não Vinculados";1589,87;1589,87;1589,87
 2025-10-03;"Recursos não Vinculados de Impostos";131982,34;131982,34;131982,34
 2025-10-03;"Transferência Especial da União";47533,90;47533,90;47533,90
-2025-10-06;"Bloco de Manutenção das Ações e Serviços Públicos de Saúde - Emendas Individuais";18570,06;17585,72;17585,72
+2025-10-06;"Bloco de Manutenção das Ações e Serviços Públicos de Saúde - Emendas Individuais";17585,72;17585,72;17585,72
 2025-10-06;"FUNDEB 30%";20923,90;20923,90;20923,90
 2025-10-06;"Outros Recursos não Vinculados";15331,94;15331,94;15331,94
 2025-10-06;"PNAE - Programa Nacional de Alimentação Escolar";31574,74;31574,74;31574,74
@@ -1159,7 +1159,7 @@ data;area;empenhado_reais;liquidado_reais;pago_reais
 2025-12-17;"Outros Recursos não Vinculados";99634,05;99634,05;99634,05
 2025-12-17;"PRIMEIRA INFANCIA MELHOR - PIM";6462,50;6462,50;6462,50
 2025-12-17;"Recursos não Vinculados de Impostos";96036,72;96036,72;96036,72
-2025-12-18;"Bloco de Manutenção das Ações e Serviços Públicos de Saúde - Emendas Individuais";4474,85;4474,85;4268,96
+2025-12-18;"Bloco de Manutenção das Ações e Serviços Públicos de Saúde - Emendas Individuais";4268,96;4268,96;4268,96
 2025-12-18;"Outros Recursos não Vinculados";51442,59;51442,59;51442,59
 2025-12-18;"PNAE - Programa Nacional de Alimentação Escolar";15,42;15,42;15,42
 2025-12-18;"PRIMEIRA INFANCIA MELHOR - PIM";2640,00;2640,00;2640,00
