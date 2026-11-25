@@ -817,5 +817,32 @@
     "campo": "e",
     "antes": 772090484,
     "depois": 771841197
+  },
+  {
+    "detectado_em": "2026-11-25",
+    "ano": 2026,
+    "mes": 1,
+    "area": "Administração",
+    "campo": "e",
+    "antes": 217945034,
+    "depois": 217665023
+  },
+  {
+    "detectado_em": "2026-11-25",
+    "ano": 2026,
+    "mes": 8,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 167865352,
+    "depois": 167743952
+  },
+  {
+    "detectado_em": "2026-11-25",
+    "ano": 2026,
+    "mes": 10,
+    "area": "Transporte",
+    "campo": "e",
+    "antes": 27803517,
+    "depois": 27392217
   }
 ]
