@@ -889,5 +889,50 @@
     "campo": "e",
     "antes": 153429270,
     "depois": 153229270
+  },
+  {
+    "detectado_em": "2026-11-27",
+    "ano": 2026,
+    "mes": 5,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 230238732,
+    "depois": 230232132
+  },
+  {
+    "detectado_em": "2026-11-27",
+    "ano": 2026,
+    "mes": 6,
+    "area": "Saúde",
+    "campo": "e",
+    "antes": 534417956,
+    "depois": 534410702
+  },
+  {
+    "detectado_em": "2026-11-27",
+    "ano": 2026,
+    "mes": 6,
+    "area": "Transporte",
+    "campo": "e",
+    "antes": 36028432,
+    "depois": 36023432
+  },
+  {
+    "detectado_em": "2026-11-27",
+    "ano": 2026,
+    "mes": 8,
+    "area": "Administração",
+    "campo": "e",
+    "antes": 89327478,
+    "depois": 89306558
+  },
+  {
+    "detectado_em": "2026-11-27",
+    "ano": 2026,
+    "mes": 10,
+    "area": "Transporte",
+    "campo": "e",
+    "antes": 27392217,
+    "depois": 27128817
   }
 ]
